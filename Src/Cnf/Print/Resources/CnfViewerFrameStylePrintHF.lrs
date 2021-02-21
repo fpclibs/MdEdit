@@ -1,0 +1,26 @@
+LazarusResources.Add('PrintEvenFoot','HTML',[
+  '<html><head><style>'#13#10'body, td  {font: sans-serif 8pt;}'#13#10'</style>'
+  +'</head>'#13#10'<body marginwidth="0">'#13#10'<table border="0" cellspacing='
+  +'"2" cellpadding="1" width="100%">'#13#10'<tr>'#13#10'<td width="30%">Page #'
+  +'page</td><td align="center"><td width="30%" align="right"></td>'#13#10'</tr'
+  +'>'#13#10'</table></body></html>'#13#10
+]);
+LazarusResources.Add('PrintEvenHead','HTML',[
+  '<html><head><style>'#13#10'body, td  {font: sans-serif 8pt;}'#13#10'</style>'
+  +'</head>'#13#10'<body marginwidth="0">'#13#10'<table border="0" cellspacing='
+  +'"2" cellpadding="1" width="100%">'#13#10'<tr>'#13#10'<td></td><td align="ri'
+  +'ght"></td>'#13#10'</tr>'#13#10'</table></body></html>'#13#10
+]);
+LazarusResources.Add('PrintOddFoot','HTML',[
+  '<html><head><style>'#13#10'body, td  {font: sans-serif 8pt;}'#13#10'</style>'
+  +'</head>'#13#10'<body marginwidth="0">'#13#10'<table border="0" cellspacing='
+  +'"2" cellpadding="1" width="100%">'#13#10'<tr>'#13#10'<td width="30%">#filen'
+  +'ame</td><td align="center"><td width="30%" align="right">Page #page</td>'#13
+  +#10'</tr>'#13#10'</table></body></html>'#13#10
+]);
+LazarusResources.Add('PrintOddHead','HTML',[
+  '<html><head><style>'#13#10'body, td  {font: sans-serif 8pt;}'#13#10'</style>'
+  +'</head>'#13#10'<body marginwidth="0">'#13#10'<table border="0" cellspacing='
+  +'"2" cellpadding="1" width="100%">'#13#10'<tr>'#13#10'<td></td><td align="ri'
+  +'ght"></td>'#13#10'</tr>'#13#10'</table></body></html>'#13#10
+]);

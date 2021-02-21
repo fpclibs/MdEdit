@@ -1,0 +1,1475 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Microsoft Corporation</Author>
+  <LastAuthor>Luft, Andreas</LastAuthor>
+  <Created>1996-10-17T05:27:31Z</Created>
+  <LastSaved>2021-01-27T07:42:52Z</LastSaved>
+  <Company>Microsoft Corporation</Company>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="/"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11160</WindowHeight>
+  <WindowWidth>19575</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1" ss:Italic="1"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1" ss:Italic="1"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1" ss:Italic="1"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="Arial Unicode MS"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Tabelle1">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="195" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="60">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="339"/>
+   <Column ss:StyleID="s62" ss:Width="234.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="219.75"/>
+   <Column ss:StyleID="s62" ss:Width="276"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="238.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s63">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Identifier</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">de_DE</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">en_GB</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">fr_FR</Data></Cell>
+    <Cell><Data ss:Type="String">es_ES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_Languages</Data></Cell>
+    <Cell><Data ss:Type="String">Deutsch</Data></Cell>
+    <Cell><Data ss:Type="String">English</Data></Cell>
+    <Cell><Data ss:Type="String">Français</Data></Cell>
+    <Cell><Data ss:Type="String">Español</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_Title</Data></Cell>
+    <Cell><Data ss:Type="String">MdEdit</Data></Cell>
+    <Cell><Data ss:Type="String">MdEdit</Data></Cell>
+    <Cell><Data ss:Type="String">MdEdit</Data></Cell>
+    <Cell><Data ss:Type="String">MdEdit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_TabSheet1</Data></Cell>
+    <Cell><Data ss:Type="String">MarkDown</Data></Cell>
+    <Cell><Data ss:Type="String">MarkDown</Data></Cell>
+    <Cell><Data ss:Type="String">MarkDown</Data></Cell>
+    <Cell><Data ss:Type="String">MarkDown</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_BtnOffset</Data></Cell>
+    <Cell><Data ss:Type="String">Offset</Data></Cell>
+    <Cell><Data ss:Type="String">Offset</Data></Cell>
+    <Cell><Data ss:Type="String">Offset</Data></Cell>
+    <Cell><Data ss:Type="String">Offset</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_TabSheetView</Data></Cell>
+    <Cell><Data ss:Type="String">View</Data></Cell>
+    <Cell><Data ss:Type="String">View</Data></Cell>
+    <Cell><Data ss:Type="String">View</Data></Cell>
+    <Cell><Data ss:Type="String">View</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_TabSheetHtml</Data></Cell>
+    <Cell><Data ss:Type="String">Html</Data></Cell>
+    <Cell><Data ss:Type="String">Html</Data></Cell>
+    <Cell><Data ss:Type="String">Html</Data></Cell>
+    <Cell><Data ss:Type="String">Html</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActFile</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Datei</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;File</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Fichier</Data></Cell>
+    <Cell><Data ss:Type="String">Archivo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActNew</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Neu</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;New</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Nouveau</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Nuevo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActOpen</Data></Cell>
+    <Cell><Data ss:Type="String">Ö&amp;ffnen …</Data></Cell>
+    <Cell><Data ss:Type="String">O&amp;pen ...</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Ouvert ...</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Abierto ...</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActOpenAgain</Data></Cell>
+    <Cell><Data ss:Type="String">Wieder öffnen …</Data></Cell>
+    <Cell><Data ss:Type="String">Reopen ...</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Rouvrir ...</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Reabrir ...</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActSave</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Speichern</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Save</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Sauver</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Salvar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActSaveAs</Data></Cell>
+    <Cell><Data ss:Type="String">Speichern &amp;unter …</Data></Cell>
+    <Cell><Data ss:Type="String">Save &amp;as ...</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Enregistrer sous ...</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Guardar como ...</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActPrinter</Data></Cell>
+    <Cell><Data ss:Type="String">Drucker-&amp;Einstellungen …</Data></Cell>
+    <Cell><Data ss:Type="String">Printer &amp;settings ...</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Paramètres de l'imprimante ...</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Configuración de la impresora ...</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActPrintPriview</Data></Cell>
+    <Cell><Data ss:Type="String">Drucker &amp;Vorschau …</Data></Cell>
+    <Cell><Data ss:Type="String">Print P&amp;riview ...</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Aperçu avant impression ...</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Vista previa de impresión …</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActPrint</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Drucken</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Print</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Impression</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Impresión</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActClose</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Beenden</Data></Cell>
+    <Cell><Data ss:Type="String">Cl&amp;ose</Data></Cell>
+    <Cell><Data ss:Type="String">Fer&amp;mer</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Cerca</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActEdit</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Bearbeiten</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Edit</Data></Cell>
+    <Cell><Data ss:Type="String">Éditer</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Editar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActUndo</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Rückgängig</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Undo</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Annuler</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Deshacer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActRedo</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Wiederholen</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Redo</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Refaire</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Rehacer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActSearch</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Suchen …</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Search …</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Chercher …</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Buscar …</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActReplace</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Ersetzen …</Data></Cell>
+    <Cell><Data ss:Type="String">Rep&amp;lace ...</Data></Cell>
+    <Cell><Data ss:Type="String">R&amp;emplacez ...</Data></Cell>
+    <Cell><Data ss:Type="String">R&amp;eemplazar ...</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActCopy</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Kopieren</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Copy</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Copie</Data></Cell>
+    <Cell><Data ss:Type="String">C&amp;opiar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActCut</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Ausschneiden</Data></Cell>
+    <Cell><Data ss:Type="String">C&amp;ut</Data></Cell>
+    <Cell><Data ss:Type="String">Co&amp;uper</Data></Cell>
+    <Cell><Data ss:Type="String">Cor&amp;tar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActPaste</Data></Cell>
+    <Cell><Data ss:Type="String">E&amp;infügen</Data></Cell>
+    <Cell><Data ss:Type="String">P&amp;aste</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Pâte</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Pegar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActProp</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Einstellungen</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Settings</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Réglages</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Configuraciones</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActPropEditor</Data></Cell>
+    <Cell><Data ss:Type="String">Einstellungen &amp;Editor …</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Editor settings ...</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Paramètres de l'éditeur ...</Data></Cell>
+    <Cell><Data ss:Type="String">Configuración del &amp;editor ...</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActPropStyle</Data></Cell>
+    <Cell><Data ss:Type="String">Einstellungen &amp;Style …</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Style settings ...</Data></Cell>
+    <Cell><Data ss:Type="String">Paramètres de &amp;style ...</Data></Cell>
+    <Cell><Data ss:Type="String">Ajustes de &amp;estilo ...</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuAct5</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Werkzeuge</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Tools</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Outils</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Herramientas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActSpell</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Rechtschreibung …</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Spellcheck …</Data></Cell>
+    <Cell><Data ss:Type="String">Vérification &amp;orthographique …</Data></Cell>
+    <Cell><Data ss:Type="String">Corrector &amp;ortográfico …</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActThes</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Thesaurus ...</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Thesaurus ...</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Thésaurus ...</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Tesauro ...</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActExport</Data></Cell>
+    <Cell><Data ss:Type="String">E&amp;xport</Data></Cell>
+    <Cell><Data ss:Type="String">E&amp;xport</Data></Cell>
+    <Cell><Data ss:Type="String">E&amp;xportation</Data></Cell>
+    <Cell><Data ss:Type="String">E&amp;xportar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActExpPDF</Data></Cell>
+    <Cell><Data ss:Type="String">Export &amp;PDF ...</Data></Cell>
+    <Cell><Data ss:Type="String">Export &amp;PDF ...</Data></Cell>
+    <Cell><Data ss:Type="String">Exporter le &amp;PDF ...</Data></Cell>
+    <Cell><Data ss:Type="String">Exportar &amp;PDF ...</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActExpHTML</Data></Cell>
+    <Cell><Data ss:Type="String">Export &amp;HTML ...</Data></Cell>
+    <Cell><Data ss:Type="String">Export &amp;HTML ...</Data></Cell>
+    <Cell><Data ss:Type="String">Exporter du &amp;HTML ...</Data></Cell>
+    <Cell><Data ss:Type="String">Exportar &amp;HTML ...</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActDebug</Data></Cell>
+    <Cell><Data ss:Type="String">Debug Console …</Data></Cell>
+    <Cell><Data ss:Type="String">Debug Console ...</Data></Cell>
+    <Cell><Data ss:Type="String">Console de &amp;débogage ...</Data></Cell>
+    <Cell><Data ss:Type="String">Consola de &amp;depuración ...</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActHelp</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Hilfe</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Help</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Aidez-moi</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Ayuda</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActHelpMd</Data></Cell>
+    <Cell><Data ss:Type="String">Hilfe zu &amp;Markdown</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Markdown help</Data></Cell>
+    <Cell><Data ss:Type="String">Aide &amp;Markdown</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Ayuda de Markdown</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActHelpEdit</Data></Cell>
+    <Cell><Data ss:Type="String">Hilfe zum &amp;Editor</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Editor help</Data></Cell>
+    <Cell><Data ss:Type="String">Aide de &amp;l'éditeur</Data></Cell>
+    <Cell><Data ss:Type="String">Ayuda del &amp;editor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MenuActHelpAbout</Data></Cell>
+    <Cell><Data ss:Type="String">Über die &amp;Anwendung ...</Data></Cell>
+    <Cell><Data ss:Type="String">About &amp;Application ...</Data></Cell>
+    <Cell><Data ss:Type="String">À propos de l'a&amp;pplication ...</Data></Cell>
+    <Cell><Data ss:Type="String">Acerca de la a&amp;plicación ...</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActNew</Data></Cell>
+    <Cell><Data ss:Type="String">Neu</Data></Cell>
+    <Cell><Data ss:Type="String">New</Data></Cell>
+    <Cell><Data ss:Type="String">Nouveau</Data></Cell>
+    <Cell><Data ss:Type="String">Nuevo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActOpen</Data></Cell>
+    <Cell><Data ss:Type="String">Öffnen</Data></Cell>
+    <Cell><Data ss:Type="String">Open</Data></Cell>
+    <Cell><Data ss:Type="String">Ouvert</Data></Cell>
+    <Cell><Data ss:Type="String">Abierto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActSave</Data></Cell>
+    <Cell><Data ss:Type="String">Speichern</Data></Cell>
+    <Cell><Data ss:Type="String">Speichern</Data></Cell>
+    <Cell><Data ss:Type="String">Speichern</Data></Cell>
+    <Cell><Data ss:Type="String">Speichern</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActSaveAs</Data></Cell>
+    <Cell><Data ss:Type="String">Speichern unter</Data></Cell>
+    <Cell><Data ss:Type="String">Save as …</Data></Cell>
+    <Cell><Data ss:Type="String">Enregistrer sous …</Data></Cell>
+    <Cell><Data ss:Type="String">Guardar como …</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActPrinter</Data></Cell>
+    <Cell><Data ss:Type="String">Druckereinstellungen</Data></Cell>
+    <Cell><Data ss:Type="String">Priner settings</Data></Cell>
+    <Cell><Data ss:Type="String">Paramètres Priner</Data></Cell>
+    <Cell><Data ss:Type="String">Configuración de imprimador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActPrintPriview</Data></Cell>
+    <Cell><Data ss:Type="String">Drucker-Voeschau</Data></Cell>
+    <Cell><Data ss:Type="String">Priner priview</Data></Cell>
+    <Cell><Data ss:Type="String">Priner privé</Data></Cell>
+    <Cell><Data ss:Type="String">Priner priview</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActPrint</Data></Cell>
+    <Cell><Data ss:Type="String">Drucken</Data></Cell>
+    <Cell><Data ss:Type="String">Print</Data></Cell>
+    <Cell><Data ss:Type="String">Impression</Data></Cell>
+    <Cell><Data ss:Type="String">Impresión</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActClose</Data></Cell>
+    <Cell><Data ss:Type="String">Beenden</Data></Cell>
+    <Cell><Data ss:Type="String">Close</Data></Cell>
+    <Cell><Data ss:Type="String">Fermer</Data></Cell>
+    <Cell><Data ss:Type="String">Cerca</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActUndo</Data></Cell>
+    <Cell><Data ss:Type="String">Rückgängig</Data></Cell>
+    <Cell><Data ss:Type="String">Undo</Data></Cell>
+    <Cell><Data ss:Type="String">annuler</Data></Cell>
+    <Cell><Data ss:Type="String">Deshacer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActRedo</Data></Cell>
+    <Cell><Data ss:Type="String">Wiederholen</Data></Cell>
+    <Cell><Data ss:Type="String">Redo</Data></Cell>
+    <Cell><Data ss:Type="String">Refaire</Data></Cell>
+    <Cell><Data ss:Type="String">Rehacer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActSearch</Data></Cell>
+    <Cell><Data ss:Type="String">Suchen</Data></Cell>
+    <Cell><Data ss:Type="String">Search</Data></Cell>
+    <Cell><Data ss:Type="String">Chercher</Data></Cell>
+    <Cell><Data ss:Type="String">Buscar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActReplace</Data></Cell>
+    <Cell><Data ss:Type="String">Ersetzen</Data></Cell>
+    <Cell><Data ss:Type="String">Replace</Data></Cell>
+    <Cell><Data ss:Type="String">Remplacer</Data></Cell>
+    <Cell><Data ss:Type="String">Reemplazar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActCopy</Data></Cell>
+    <Cell><Data ss:Type="String">Kopieren</Data></Cell>
+    <Cell><Data ss:Type="String">Copy</Data></Cell>
+    <Cell><Data ss:Type="String">Copie</Data></Cell>
+    <Cell><Data ss:Type="String">Copiar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActCut</Data></Cell>
+    <Cell><Data ss:Type="String">Ausschneiden</Data></Cell>
+    <Cell><Data ss:Type="String">Cut</Data></Cell>
+    <Cell><Data ss:Type="String">Couper</Data></Cell>
+    <Cell><Data ss:Type="String">Cortar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActPaste</Data></Cell>
+    <Cell><Data ss:Type="String">Einfügen</Data></Cell>
+    <Cell><Data ss:Type="String">Paste</Data></Cell>
+    <Cell><Data ss:Type="String">Pâte</Data></Cell>
+    <Cell><Data ss:Type="String">Pegar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActPropEditor</Data></Cell>
+    <Cell><Data ss:Type="String">Einstellungen Editor</Data></Cell>
+    <Cell><Data ss:Type="String">Editor settings</Data></Cell>
+    <Cell><Data ss:Type="String">Paramètres de l'éditeur</Data></Cell>
+    <Cell><Data ss:Type="String">Configuración del editor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActPropStyle</Data></Cell>
+    <Cell><Data ss:Type="String">Einstellungen Style</Data></Cell>
+    <Cell><Data ss:Type="String">Style settings</Data></Cell>
+    <Cell><Data ss:Type="String">Paramètres de style</Data></Cell>
+    <Cell><Data ss:Type="String">Configuración de estilo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActSpell</Data></Cell>
+    <Cell><Data ss:Type="String">Rechtschreibung</Data></Cell>
+    <Cell><Data ss:Type="String">Spellcheck</Data></Cell>
+    <Cell><Data ss:Type="String">Vérification orthographique</Data></Cell>
+    <Cell><Data ss:Type="String">Corrector ortográfico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActThes</Data></Cell>
+    <Cell><Data ss:Type="String">Thesaurus</Data></Cell>
+    <Cell><Data ss:Type="String">Thesaurus</Data></Cell>
+    <Cell><Data ss:Type="String">Thésaurus</Data></Cell>
+    <Cell><Data ss:Type="String">Tesauro</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActExpPDF</Data></Cell>
+    <Cell><Data ss:Type="String">Export PDF</Data></Cell>
+    <Cell><Data ss:Type="String">Export PDF</Data></Cell>
+    <Cell><Data ss:Type="String">Exporter le PDF</Data></Cell>
+    <Cell><Data ss:Type="String">Exportar PDF</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActExpHTML</Data></Cell>
+    <Cell><Data ss:Type="String">Export HTML</Data></Cell>
+    <Cell><Data ss:Type="String">Export HTML</Data></Cell>
+    <Cell><Data ss:Type="String">Exporter du HTML</Data></Cell>
+    <Cell><Data ss:Type="String">Exportar HTML</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActDebug</Data></Cell>
+    <Cell><Data ss:Type="String">Debug Console</Data></Cell>
+    <Cell><Data ss:Type="String">Debug Console</Data></Cell>
+    <Cell><Data ss:Type="String">Console de débogage</Data></Cell>
+    <Cell><Data ss:Type="String">Consola de depuración</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActHelpMd</Data></Cell>
+    <Cell><Data ss:Type="String">Hilfe zu Markdown</Data></Cell>
+    <Cell><Data ss:Type="String">Markdown help</Data></Cell>
+    <Cell><Data ss:Type="String">Aide Markdown</Data></Cell>
+    <Cell><Data ss:Type="String">Ayuda de Markdown</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActHelpEdit</Data></Cell>
+    <Cell><Data ss:Type="String">Hilfe zum Editor</Data></Cell>
+    <Cell><Data ss:Type="String">Editor help</Data></Cell>
+    <Cell><Data ss:Type="String">Aide de l'éditeur</Data></Cell>
+    <Cell><Data ss:Type="String">Ayuda del editor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_HintActHelpAbout</Data></Cell>
+    <Cell><Data ss:Type="String">Über die Anwendung</Data></Cell>
+    <Cell><Data ss:Type="String">About application</Data></Cell>
+    <Cell><Data ss:Type="String">À propos de l'application</Data></Cell>
+    <Cell><Data ss:Type="String">Sobre la aplicación</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_OpenDialogApp</Data></Cell>
+    <Cell><Data ss:Type="String">Datei öffnen</Data></Cell>
+    <Cell><Data ss:Type="String">File open</Data></Cell>
+    <Cell><Data ss:Type="String">Fichier ouvert</Data></Cell>
+    <Cell><Data ss:Type="String">Archivo abierto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_SaveDialogApp</Data></Cell>
+    <Cell><Data ss:Type="String">Datei speichern unter …</Data></Cell>
+    <Cell><Data ss:Type="String">File save as …</Data></Cell>
+    <Cell><Data ss:Type="String">Fichier enregistré sous…</Data></Cell>
+    <Cell><Data ss:Type="String">Archivo guardar como…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_FindDialogApp</Data></Cell>
+    <Cell><Data ss:Type="String">Suchen</Data></Cell>
+    <Cell><Data ss:Type="String">Search</Data></Cell>
+    <Cell><Data ss:Type="String">Chercher</Data></Cell>
+    <Cell><Data ss:Type="String">Buscar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_ReplaceDialogApp</Data></Cell>
+    <Cell><Data ss:Type="String">Ersetzen</Data></Cell>
+    <Cell><Data ss:Type="String">Replace</Data></Cell>
+    <Cell><Data ss:Type="String">Remplacer</Data></Cell>
+    <Cell><Data ss:Type="String">Reemplazar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MsgYes</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Ja</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Yes</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Oui</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Si</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MsgNo</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Nein</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;No</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Non</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MsgCancel</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Abbrechen</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Abort</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Avorter</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;Abortar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MsgSaveAsHead</Data></Cell>
+    <Cell><Data ss:Type="String">Datei speichern unter …</Data></Cell>
+    <Cell><Data ss:Type="String">Save file as ...</Data></Cell>
+    <Cell><Data ss:Type="String">Enregistrer le fichier sous ...</Data></Cell>
+    <Cell><Data ss:Type="String">Guardar archivo como ...</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MsgSaveAsBody</Data></Cell>
+    <Cell><Data ss:Type="String">Die Änderungen sind noch nicht gespeichert.</Data></Cell>
+    <Cell><Data ss:Type="String">Changes have not yet been saved.</Data></Cell>
+    <Cell><Data ss:Type="String">Les modifications n'ont pas encore été enregistrées.</Data></Cell>
+    <Cell><Data ss:Type="String">Los cambios aún no se han guardado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MsgSaveAsQuestion</Data></Cell>
+    <Cell><Data ss:Type="String">Möchten Sie die Änderungen jetzt speichern?</Data></Cell>
+    <Cell><Data ss:Type="String">Would you like to save the changes now?</Data></Cell>
+    <Cell><Data ss:Type="String">Souhaitez-vous enregistrer les modifications maintenant?</Data></Cell>
+    <Cell><Data ss:Type="String">¿Le gustaría guardar los cambios ahora?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MsgErrType</Data></Cell>
+    <Cell><Data ss:Type="String">Fehler: unbekannter Datentyp</Data></Cell>
+    <Cell><Data ss:Type="String">Error: unknown data type</Data></Cell>
+    <Cell><Data ss:Type="String">Erreur: type de données inconnu</Data></Cell>
+    <Cell><Data ss:Type="String">Error: tipo de datos desconocido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MsgErrOpen</Data></Cell>
+    <Cell><Data ss:Type="String">Fehler: Die Datei konnte nicht geladen werden!</Data></Cell>
+    <Cell><Data ss:Type="String">Error: The file could not be loaded!</Data></Cell>
+    <Cell><Data ss:Type="String">Erreur: le fichier n'a pas pu être chargé!</Data></Cell>
+    <Cell><Data ss:Type="String">Error: ¡No se pudo cargar el archivo!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MsgReadOnlyHead</Data></Cell>
+    <Cell><Data ss:Type="String">Datei speichern</Data></Cell>
+    <Cell><Data ss:Type="String">Save file</Data></Cell>
+    <Cell><Data ss:Type="String">Enregistrer le fichier</Data></Cell>
+    <Cell><Data ss:Type="String">guardar el archivo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MsgReadOnlyBody</Data></Cell>
+    <Cell><Data ss:Type="String">Die Datei ist schreibgeschützt.</Data></Cell>
+    <Cell><Data ss:Type="String">The file is write-protected.</Data></Cell>
+    <Cell><Data ss:Type="String">Le fichier est protégé en écriture.</Data></Cell>
+    <Cell><Data ss:Type="String">El archivo está protegido contra escritura.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MsgReadOnlyQuestion</Data></Cell>
+    <Cell><Data ss:Type="String">Möchten Sie die Änderungen unter einem anderen Namen speichern?</Data></Cell>
+    <Cell><Data ss:Type="String">Would you like to save the changes under a different name?</Data></Cell>
+    <Cell><Data ss:Type="String">Souhaitez-vous enregistrer les modifications sous un autre nom?</Data></Cell>
+    <Cell><Data ss:Type="String">¿Le gustaría guardar los cambios con un nombre diferente?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MsgSaveErrHead</Data></Cell>
+    <Cell><Data ss:Type="String">Datei speichern</Data></Cell>
+    <Cell><Data ss:Type="String">Save file</Data></Cell>
+    <Cell><Data ss:Type="String">Enregistrer le fichier</Data></Cell>
+    <Cell><Data ss:Type="String">guardar el archivo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MsgSaveErrBody</Data></Cell>
+    <Cell><Data ss:Type="String">Fehler beim Speichern der Datei.</Data></Cell>
+    <Cell><Data ss:Type="String">Error saving file.</Data></Cell>
+    <Cell><Data ss:Type="String">Échec de l'enregistrement du fichier.</Data></Cell>
+    <Cell><Data ss:Type="String">No se pudo guardar el archivo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_MsgSaveErrQuestion</Data></Cell>
+    <Cell><Data ss:Type="String">Möchten Sie die Änderungen unter einem anderen Namen speichern?</Data></Cell>
+    <Cell><Data ss:Type="String">Would you like to save the changes under a different name?</Data></Cell>
+    <Cell><Data ss:Type="String">Souhaitez-vous enregistrer les modifications sous un autre nom?</Data></Cell>
+    <Cell><Data ss:Type="String">¿Le gustaría guardar los cambios con un nombre diferente?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FormMain_AboutApp</Data></Cell>
+    <Cell><Data ss:Type="String">About</Data></Cell>
+    <Cell><Data ss:Type="String">About</Data></Cell>
+    <Cell><Data ss:Type="String">À propos</Data></Cell>
+    <Cell><Data ss:Type="String">Acerca de</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FrameCnfLocalizeLng_SelectLng</Data></Cell>
+    <Cell><Data ss:Type="String">Sprache auswählen:</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a language:</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une langue:</Data></Cell>
+    <Cell><Data ss:Type="String">Elige un idioma:</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FrameCnfLocalizeLng_UseExternLng</Data></Cell>
+    <Cell><Data ss:Type="String">Benutze externe Sprach-Datei</Data></Cell>
+    <Cell><Data ss:Type="String">Use external language file</Data></Cell>
+    <Cell><Data ss:Type="String">Utiliser un fichier de langue externe</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Usar archivo de idioma externo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FrameCnfLocalizeLng_SelectExtFiles</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Externe Sprach-Dateien</Data></Cell>
+    <Cell><Data ss:Type="String">External language files</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Fichiers de langues externes</Data></Cell>
+    <Cell><Data ss:Type="String">Archivos de idioma externo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_General_BtnLoad</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Laden</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Load</Data></Cell>
+    <Cell><Data ss:Type="String">Charge</Data></Cell>
+    <Cell><Data ss:Type="String">Carga</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_General_BtnExport</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Exportieren</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Export</Data></Cell>
+    <Cell><Data ss:Type="String">Exportation</Data></Cell>
+    <Cell><Data ss:Type="String">Exportar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_FrameCnfLocalizeLng_InfoText</Data></Cell>
+    <Cell><Data ss:Type="String">Bitte helfen Sie mit, diese Anwendung in Ihre Sprache zu übersetzen. Exportieren Sie die Datei Lng.xml in das Anwendungsverzeichnis. Mit Excel können Sie diese Datei bequem bearbeiten.&#10;&#10;Bitte senden Sie Ihre übersetzte Datei zurück an FpcLibs (fpclibs@online.de). Sie wird in die nächste Version aufgenommen.&#10;&#10;Infos:&#10;Fügen Sie in der Tabelle eine neue Spalte hinzu und fügen Sie in die Kopfzelle einen neuen Sprachcode ein. Zum Beispiel:&#10;(&quot;cz_CZ&quot;, &quot;en_AU&quot; oder was auch immer)&#10;</Data></Cell>
+    <Cell><Data ss:Type="String">Please help to translate this application in to your language. Export the Lng.xml in to the application directory. With Excel you can edit tis file comfortably. &#10;&#10;Please send back your translated file to FpcLibs (fpclibs@online.de). It will add into next release.&#10;&#10;Infos:&#10;In the Table add a new column and on the head cell insert a new language-code. For example:&#10;(&quot;cz_CZ&quot;, &quot;en_AU&quot; or what ever else)&#10;</Data></Cell>
+    <Cell><Data ss:Type="String">Veuillez aider à traduire cette application dans votre langue. Exportez le fichier Lng.xml dans le répertoire de l'application. Avec Excel, vous pouvez éditer ce fichier confortablement.&#10;&#10;Veuillez renvoyer votre fichier traduit à FpcLibs (fpclibs@online.de). Il sera ajouté dans la prochaine version.&#10;&#10;Infos:&#10;Dans le tableau, ajoutez une nouvelle colonne et dans la cellule d'en-tête, insérez un nouveau code de langue. Par exemple:&#10;(&quot;cz_CZ&quot;, &quot;en_AU&quot; ou quoi que ce soit d'autre)&#10;</Data></Cell>
+    <Cell><Data ss:Type="String">Ayude a traducir esta aplicación a su idioma. Exporte el archivo Lng.xml al directorio de la aplicación. Con Excel puede editar este archivo cómodamente.&#10;&#10;Envíe su archivo traducido a FpcLibs (fpclibs@online.de). Se agregará a la próxima versión.&#10;&#10;Infos:&#10;En la Tabla agregue una nueva columna y en la celda principal inserte un nuevo código de idioma. Por ejemplo:&#10;(&quot;cz_CZ&quot;, &quot;en_AU&quot; o lo que sea)&#10;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfDialogComboBoxItems_ItemText</Data></Cell>
+    <Cell><Data ss:Type="String">letzte Vorlagen …</Data></Cell>
+    <Cell><Data ss:Type="String">last templates …</Data></Cell>
+    <Cell><Data ss:Type="String">derniers modèles …</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">últimas plantillas ...</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfDialogComboBoxItems_FileErrFind</Data></Cell>
+    <Cell><Data ss:Type="String">Fehler: Die Datei konnte nicht gefunden werden!</Data></Cell>
+    <Cell><Data ss:Type="String">Error: The file could not be found!</Data></Cell>
+    <Cell><Data ss:Type="String">Erreur: le fichier est introuvable!</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Error: ¡No se pudo encontrar el archivo!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfDialogComboBoxItems_FileErrLoad</Data></Cell>
+    <Cell><Data ss:Type="String">Fehler: Die Datei konnte nicht geladen werden!</Data></Cell>
+    <Cell><Data ss:Type="String">Error: The file could not be loaded!</Data></Cell>
+    <Cell><Data ss:Type="String">Erreur: le fichier n'a pas pu être chargé!</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Error: ¡No se pudo cargar el archivo!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_DividerBevelUndo</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Rückgängig wiederholen</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Undo / Redo</Data></Cell>
+    <Cell><Data ss:Type="String">Défaire refaire</Data></Cell>
+    <Cell><Data ss:Type="String">Deshacer rehacer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_CheckBoxUndoAfterSave</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Nach dem Speichern rückgängig machen</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Undo after save</Data></Cell>
+    <Cell><Data ss:Type="String">Annuler après l'enregistrement</Data></Cell>
+    <Cell><Data ss:Type="String">Deshacer después de guardar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_CheckBoxGroupUndo</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Gruppe rückgängig machen</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Group Undo</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Annuler le groupe</Data></Cell>
+    <Cell><Data ss:Type="String">Deshacer grupo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_LabelUndoLimit</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Limit rückgängig machen</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Undo limit</Data></Cell>
+    <Cell><Data ss:Type="String">Annuler la limite</Data></Cell>
+    <Cell><Data ss:Type="String">Deshacer límite</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_DividerBevelScroll</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Scrollen</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Scrolling</Data></Cell>
+    <Cell><Data ss:Type="String">Défilement</Data></Cell>
+    <Cell><Data ss:Type="String">Desplazamiento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_CheckBoxHalfPageScroll</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Halbseitenlauf</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Half page scroll</Data></Cell>
+    <Cell><Data ss:Type="String">Défilement d'une demi-page</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Desplazamiento de media página</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_CheckBoxScrollByOneLess</Data></Cell>
+    <Cell><Data ss:Type="String">Scrollen Sie um eins weniger</Data></Cell>
+    <Cell><Data ss:Type="String">Scroll by one less</Data></Cell>
+    <Cell><Data ss:Type="String">Faites défiler par un de moins</Data></Cell>
+    <Cell><Data ss:Type="String">Desplazarse por uno menos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_CheckBoxScrollPastEndFile</Data></Cell>
+    <Cell><Data ss:Type="String">Scrollen Sie über das Dateiende hinaus</Data></Cell>
+    <Cell><Data ss:Type="String">Scroll past end of file</Data></Cell>
+    <Cell><Data ss:Type="String">Faire défiler la fin du fichier</Data></Cell>
+    <Cell><Data ss:Type="String">Desplazarse más allá del final del archivo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_CheckBoxScrollPastEndLine</Data></Cell>
+    <Cell><Data ss:Type="String">Lassen Sie das Caret über das Zeilenende hinausgehen</Data></Cell>
+    <Cell><Data ss:Type="String">Allow caret to move past end of line</Data></Cell>
+    <Cell><Data ss:Type="String">Autoriser le curseur à dépasser la fin de la ligne</Data></Cell>
+    <Cell><Data ss:Type="String">Permita que el cursor se mueva más allá del final de la línea</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_CheckBoxScrollHint</Data></Cell>
+    <Cell><Data ss:Type="String">Scroll-Hinweis anzeigen</Data></Cell>
+    <Cell><Data ss:Type="String">Show scroll hint</Data></Cell>
+    <Cell><Data ss:Type="String">Afficher l'indice de défilement</Data></Cell>
+    <Cell><Data ss:Type="String">Mostrar sugerencia de desplazamiento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_DividerBevelCaret</Data></Cell>
+    <Cell><Data ss:Type="String">Text-Cursor</Data></Cell>
+    <Cell><Data ss:Type="String">Caret (Text Cursor)</Data></Cell>
+    <Cell><Data ss:Type="String">Caret (curseur de texte)</Data></Cell>
+    <Cell><Data ss:Type="String">Caret (cursor de texto)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_CheckBoxKeepCursorX</Data></Cell>
+    <Cell><Data ss:Type="String">Behält bei Navigation die X-Position des Cursors bei</Data></Cell>
+    <Cell><Data ss:Type="String">Keep caret X position when navigating up/down</Data></Cell>
+    <Cell><Data ss:Type="String">Gardez la position X du curseur lors de la navigation vers le haut / vers le bas</Data></Cell>
+    <Cell><Data ss:Type="String">Mantenga la posición X del cursor al navegar hacia arriba / abajo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_CheckBoxPersistentCursor</Data></Cell>
+    <Cell><Data ss:Type="String">Sichtbarer Cursor im unscharfen Editor</Data></Cell>
+    <Cell><Data ss:Type="String">Visible caret in unfocused editor</Data></Cell>
+    <Cell><Data ss:Type="String">Caret visible dans l'éditeur flou</Data></Cell>
+    <Cell><Data ss:Type="String">Caret visible en editor desenfocado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_CheckBoxPersistentCursorNoBlink</Data></Cell>
+    <Cell><Data ss:Type="String">Cursor im nicht fokussierten Editor blinkt nicht</Data></Cell>
+    <Cell><Data ss:Type="String">Caret in unfocused editor does not blink</Data></Cell>
+    <Cell><Data ss:Type="String">Le curseur dans l'éditeur flou ne clignote pas</Data></Cell>
+    <Cell><Data ss:Type="String">Caret en el editor desenfocado no parpadea</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_CheckBoxAlwaysVisibleCursor</Data></Cell>
+    <Cell><Data ss:Type="String">Der Cursor ist immer im sichtbaren Bereich des Editors</Data></Cell>
+    <Cell><Data ss:Type="String">Always keep caret in visible area of editor</Data></Cell>
+    <Cell><Data ss:Type="String">Gardez toujours le curseur dans la zone visible de l'éditeur</Data></Cell>
+    <Cell><Data ss:Type="String">Mantenga siempre el cursor en el área visible del editor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_CheckBoxCursorSkipsSelection</Data></Cell>
+    <Cell><Data ss:Type="String">Cursor überspringt die Auswahl</Data></Cell>
+    <Cell><Data ss:Type="String">Caret skips selection</Data></Cell>
+    <Cell><Data ss:Type="String">Caret ignore la sélection</Data></Cell>
+    <Cell><Data ss:Type="String">Caret omite la selección</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_CheckBoxCaretMoveClearsSelection</Data></Cell>
+    <Cell><Data ss:Type="String">Cursor links / rechts löscht die Auswahl (keine Bewegung)</Data></Cell>
+    <Cell><Data ss:Type="String">Caret left/right clears selection (no move)</Data></Cell>
+    <Cell><Data ss:Type="String">Le curseur gauche / droite efface la sélection (pas de mouvement)</Data></Cell>
+    <Cell><Data ss:Type="String">Caret izquierda / derecha borra la selección (sin movimiento)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_CheckBoxCursorSkipsTab</Data></Cell>
+    <Cell><Data ss:Type="String">Cursor überspringt Tabs</Data></Cell>
+    <Cell><Data ss:Type="String">Caret skips tabs</Data></Cell>
+    <Cell><Data ss:Type="String">Le curseur saute les onglets</Data></Cell>
+    <Cell><Data ss:Type="String">Caret salta pestañas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_CheckBoxHomeKeyJumpsToNearestStart</Data></Cell>
+    <Cell><Data ss:Type="String">Pos1-Taste springt zum nächsten Start</Data></Cell>
+    <Cell><Data ss:Type="String">Home key jumps to nearest start</Data></Cell>
+    <Cell><Data ss:Type="String">La touche Accueil saute au début le plus proche</Data></Cell>
+    <Cell><Data ss:Type="String">La tecla de inicio salta al inicio más cercano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_CheckBoxEndKeyJumpsToNearestStart</Data></Cell>
+    <Cell><Data ss:Type="String">Ende-Taste springt zum nächsten Ende</Data></Cell>
+    <Cell><Data ss:Type="String">End key jumps to nearest end</Data></Cell>
+    <Cell><Data ss:Type="String">La touche de fin saute à l'extrémité la plus proche</Data></Cell>
+    <Cell><Data ss:Type="String">La tecla de fin salta al extremo más cercano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_DividerBevelMultiCaretGroup</Data></Cell>
+    <Cell><Data ss:Type="String">Mehrere Cursor</Data></Cell>
+    <Cell><Data ss:Type="String">Multi-caret</Data></Cell>
+    <Cell><Data ss:Type="String">Multi-caret</Data></Cell>
+    <Cell><Data ss:Type="String">Multi-caret</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_CheckBoxMultiCaretOnColumnSelection</Data></Cell>
+    <Cell><Data ss:Type="String">Aktivieren Sie Multi-Cursor für die Spaltenauswahl</Data></Cell>
+    <Cell><Data ss:Type="String">Enable multi-caret for column selection</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Activer le multi-caret pour la sélection de colonnes</Data></Cell>
+    <Cell><Data ss:Type="String">Habilitar varios signos de intercalación para la selección de columnas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_CheckBoxMultiCaretColumnMode</Data></Cell>
+    <Cell><Data ss:Type="String">Navigationstasten verschieben alle Cursor (Spaltenauswahl)</Data></Cell>
+    <Cell><Data ss:Type="String">Navigation keys move all carets (column-select)</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Les touches de navigation déplacent tous les carets (sélection de colonne)</Data></Cell>
+    <Cell><Data ss:Type="String">Las teclas de navegación mueven todos los signos de intercalación (selección de columna)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_CheckBoxMultiCaretMode</Data></Cell>
+    <Cell><Data ss:Type="String">Die Navigationstasten bewegen alle Cursor</Data></Cell>
+    <Cell><Data ss:Type="String">Navigation keys move all carets</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Les touches de navigation déplacent tous les carets</Data></Cell>
+    <Cell><Data ss:Type="String">Las teclas de navegación mueven todos los signos de intercalación</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_CheckBoxMultiCaretDelSkipCr</Data></Cell>
+    <Cell><Data ss:Type="String">Löschtaste bei EOL überspringen (keine Zeilen verbinden)</Data></Cell>
+    <Cell><Data ss:Type="String">Skip delete key at EOL (do not join lines)</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Ignorer la touche de suppression à EOL (ne pas joindre les lignes)</Data></Cell>
+    <Cell><Data ss:Type="String">Omitir la tecla de eliminación en EOL (no unir líneas)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_DividerBevelBlock</Data></Cell>
+    <Cell><Data ss:Type="String">Auswahl</Data></Cell>
+    <Cell><Data ss:Type="String">Selection</Data></Cell>
+    <Cell><Data ss:Type="String">Sélection</Data></Cell>
+    <Cell><Data ss:Type="String">Selección</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_CheckBoxPersistentBlock</Data></Cell>
+    <Cell><Data ss:Type="String">Dauerhafter Block</Data></Cell>
+    <Cell><Data ss:Type="String">Persistent block</Data></Cell>
+    <Cell><Data ss:Type="String">Bloc persistant</Data></Cell>
+    <Cell><Data ss:Type="String">Bloqueo persistente</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_CheckBoxOverwriteBlock</Data></Cell>
+    <Cell><Data ss:Type="String">Block überschreiben</Data></Cell>
+    <Cell><Data ss:Type="String">Overwrite block</Data></Cell>
+    <Cell><Data ss:Type="String">Écraser le bloc</Data></Cell>
+    <Cell><Data ss:Type="String">Sobrescribir bloque</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameThemes_LabelSelectMode</Data></Cell>
+    <Cell><Data ss:Type="String">Light Mode oder Dark Mode:</Data></Cell>
+    <Cell><Data ss:Type="String">Light Mode or Dark Mode:</Data></Cell>
+    <Cell><Data ss:Type="String">Mode clair ou mode sombre:</Data></Cell>
+    <Cell><Data ss:Type="String">Modo claro o modo oscuro:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameThemes_RadioButtonLightMode</Data></Cell>
+    <Cell><Data ss:Type="String">Light Mode</Data></Cell>
+    <Cell><Data ss:Type="String">Light mode</Data></Cell>
+    <Cell><Data ss:Type="String">Mode lumière</Data></Cell>
+    <Cell><Data ss:Type="String">Modo de luz</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameThemes_RadioButtonDarkMode</Data></Cell>
+    <Cell><Data ss:Type="String">Dark Mode</Data></Cell>
+    <Cell><Data ss:Type="String">Dark mode</Data></Cell>
+    <Cell><Data ss:Type="String">Mode sombre</Data></Cell>
+    <Cell><Data ss:Type="String">Modo oscuro</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameThemes_LabelSelectScheme</Data></Cell>
+    <Cell><Data ss:Type="String">Markup-Sprache auswählen:</Data></Cell>
+    <Cell><Data ss:Type="String">Select markup language:</Data></Cell>
+    <Cell><Data ss:Type="String">Sélectionnez le langage de balisage:</Data></Cell>
+    <Cell><Data ss:Type="String">Seleccionar lenguaje de marcado:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameThemes_LabelSelectExtension</Data></Cell>
+    <Cell><Data ss:Type="String">Dateierweiterungen einstellen:</Data></Cell>
+    <Cell><Data ss:Type="String">Set file extensions:</Data></Cell>
+    <Cell><Data ss:Type="String">Définir les extensions de fichier:</Data></Cell>
+    <Cell><Data ss:Type="String">Establecer extensiones de archivo:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameThemes_LabelSelectThemes</Data></Cell>
+    <Cell><Data ss:Type="String">Themes auswählen, laden oder exportieren:</Data></Cell>
+    <Cell><Data ss:Type="String">Select, load or export themes:</Data></Cell>
+    <Cell><Data ss:Type="String">Sélectionnez, chargez ou exportez des thèmes:</Data></Cell>
+    <Cell><Data ss:Type="String">Seleccionar, cargar o exportar temas:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameDisplay_GroupBoxMarginAndGutter</Data></Cell>
+    <Cell><Data ss:Type="String">Rand und Leiste</Data></Cell>
+    <Cell><Data ss:Type="String">Margin and gutter</Data></Cell>
+    <Cell><Data ss:Type="String">Marge et gouttière</Data></Cell>
+    <Cell><Data ss:Type="String">Margen y canaleta</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameDisplay_CheckBoxVisibleRightMargin</Data></Cell>
+    <Cell><Data ss:Type="String">Sichtbarer rechter Rand</Data></Cell>
+    <Cell><Data ss:Type="String">Visible right margin</Data></Cell>
+    <Cell><Data ss:Type="String">Marge droite visible</Data></Cell>
+    <Cell><Data ss:Type="String">Margen derecho visible</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameDisplay_CheckBoxVisibleGutter</Data></Cell>
+    <Cell><Data ss:Type="String">Leiste sichtbar</Data></Cell>
+    <Cell><Data ss:Type="String">Visible gutter</Data></Cell>
+    <Cell><Data ss:Type="String">Gouttière visible</Data></Cell>
+    <Cell><Data ss:Type="String">Canalón visible</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameDisplay_CheckBoxShowLineNumbers</Data></Cell>
+    <Cell><Data ss:Type="String">Zeilennummern anzeigen</Data></Cell>
+    <Cell><Data ss:Type="String">Show line numbers</Data></Cell>
+    <Cell><Data ss:Type="String">Afficher les numéros de ligne</Data></Cell>
+    <Cell><Data ss:Type="String">Mostrar números de línea</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameDisplay_CheckBoxShowOverview</Data></Cell>
+    <Cell><Data ss:Type="String">Übersichtsleiste anzeigen</Data></Cell>
+    <Cell><Data ss:Type="String">Show overview gutter</Data></Cell>
+    <Cell><Data ss:Type="String">Afficher la gouttière d'aperçu</Data></Cell>
+    <Cell><Data ss:Type="String">Mostrar canal de vista general</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameDisplay_CheckBoxTopInfoView</Data></Cell>
+    <Cell><Data ss:Type="String">Klassen- / Prozedurhinweis anzeigen</Data></Cell>
+    <Cell><Data ss:Type="String">Show Class/Procedure hint</Data></Cell>
+    <Cell><Data ss:Type="String">Afficher l'indice de classe / procédure</Data></Cell>
+    <Cell><Data ss:Type="String">Mostrar sugerencia de clase / procedimiento</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameDisplay_LabelRightMargin</Data></Cell>
+    <Cell><Data ss:Type="String">Rechter Rand</Data></Cell>
+    <Cell><Data ss:Type="String">Right margin</Data></Cell>
+    <Cell><Data ss:Type="String">Marge droite</Data></Cell>
+    <Cell><Data ss:Type="String">Margen derecho</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameDisplay_LabelRightMarginColorLink</Data></Cell>
+    <Cell><Data ss:Type="String">(Farbe bearbeiten)</Data></Cell>
+    <Cell><Data ss:Type="String">(Edit Color)</Data></Cell>
+    <Cell><Data ss:Type="String">(Modifier la couleur)</Data></Cell>
+    <Cell><Data ss:Type="String">(Editar color)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameDisplay_LabelGutterSeparatorIndex</Data></Cell>
+    <Cell><Data ss:Type="String">Leisten Separator Index</Data></Cell>
+    <Cell><Data ss:Type="String">Gutter separator index</Data></Cell>
+    <Cell><Data ss:Type="String">Indice de séparateur de gouttière</Data></Cell>
+    <Cell><Data ss:Type="String">Índice de separador de canalones</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameDisplay_LabelShowOnlyLineNumbersMultiplesOf</Data></Cell>
+    <Cell><Data ss:Type="String">Jede n-te Zeilennummer</Data></Cell>
+    <Cell><Data ss:Type="String">Every n-th line number</Data></Cell>
+    <Cell><Data ss:Type="String">Chaque n-ième numéro de ligne</Data></Cell>
+    <Cell><Data ss:Type="String">Cada n-ésimo número de línea</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameDisplay_GroupBoxEditorFont</Data></Cell>
+    <Cell><Data ss:Type="String">Standard-Editor-Schriftart</Data></Cell>
+    <Cell><Data ss:Type="String">Default editor font</Data></Cell>
+    <Cell><Data ss:Type="String">Police de l'éditeur par défaut</Data></Cell>
+    <Cell><Data ss:Type="String">Fuente de editor predeterminada</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameDisplay_LabelEditorFontSize</Data></Cell>
+    <Cell><Data ss:Type="String">Editor Schriftgröße</Data></Cell>
+    <Cell><Data ss:Type="String">Editor font size</Data></Cell>
+    <Cell><Data ss:Type="String">Taille de la police de l'éditeur</Data></Cell>
+    <Cell><Data ss:Type="String">Tamaño de fuente del editor</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameDisplay_CheckBoxDisableAntialiasing</Data></Cell>
+    <Cell><Data ss:Type="String">Anti-Aliasing deaktivieren</Data></Cell>
+    <Cell><Data ss:Type="String">Disable anti-aliasing</Data></Cell>
+    <Cell><Data ss:Type="String">Désactiver l'anticrénelage</Data></Cell>
+    <Cell><Data ss:Type="String">Deshabilitar el suavizado</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameDisplay_LabelExtraLineSpacing</Data></Cell>
+    <Cell><Data ss:Type="String">Zusätzlicher Zeilenabstand</Data></Cell>
+    <Cell><Data ss:Type="String">Extra line spacing</Data></Cell>
+    <Cell><Data ss:Type="String">Interligne supplémentaire</Data></Cell>
+    <Cell><Data ss:Type="String">Espaciado extra entre líneas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameDisplay_LabelExtraCharSpacing</Data></Cell>
+    <Cell><Data ss:Type="String">Zusätzlicher Zeichenabstand</Data></Cell>
+    <Cell><Data ss:Type="String">Extra character spacing</Data></Cell>
+    <Cell><Data ss:Type="String">Espacement supplémentaire des caractères</Data></Cell>
+    <Cell><Data ss:Type="String">Espacio extra entre caracteres</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameColorAttrEditor_GroupBoxColorAttributs</Data></Cell>
+    <Cell><Data ss:Type="String">Farbattribute</Data></Cell>
+    <Cell><Data ss:Type="String">Color Attributs</Data></Cell>
+    <Cell><Data ss:Type="String">Attributs de couleur</Data></Cell>
+    <Cell><Data ss:Type="String">Atributos de color</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameColorAttrEditor_CheckBoxForeGroundUseDefault</Data></Cell>
+    <Cell><Data ss:Type="String">Vordergrund</Data></Cell>
+    <Cell><Data ss:Type="String">Foreground</Data></Cell>
+    <Cell><Data ss:Type="String">Premier plan</Data></Cell>
+    <Cell><Data ss:Type="String">Primer plano</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameColorAttrEditor_CheckBoxBackGroundUseDefault</Data></Cell>
+    <Cell><Data ss:Type="String">Hintergrund</Data></Cell>
+    <Cell><Data ss:Type="String">Background</Data></Cell>
+    <Cell><Data ss:Type="String">Contexte</Data></Cell>
+    <Cell><Data ss:Type="String">Antecedentes</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameColorAttrEditor_CheckBoxFrameColorUseDefault</Data></Cell>
+    <Cell><Data ss:Type="String">Textmarke</Data></Cell>
+    <Cell><Data ss:Type="String">Text-mark</Data></Cell>
+    <Cell><Data ss:Type="String">Marque de texte</Data></Cell>
+    <Cell><Data ss:Type="String">Marca de texto</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameColorAttrEditor_CheckBoxMarkupFoldColorUseDefault</Data></Cell>
+    <Cell><Data ss:Type="String">Vertikale Markierung</Data></Cell>
+    <Cell><Data ss:Type="String">Vertical-mark</Data></Cell>
+    <Cell><Data ss:Type="String">Marque verticale</Data></Cell>
+    <Cell><Data ss:Type="String">Marca vertical</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameColorAttrEditor_CheckBoxTextUnderline</Data></Cell>
+    <Cell><Data ss:Type="String">Unterstreichen</Data></Cell>
+    <Cell><Data ss:Type="String">Underline</Data></Cell>
+    <Cell><Data ss:Type="String">Souligner</Data></Cell>
+    <Cell><Data ss:Type="String">Subrayar</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameColorAttrEditor_CheckBoxTextBold</Data></Cell>
+    <Cell><Data ss:Type="String">Fett</Data></Cell>
+    <Cell><Data ss:Type="String">Bold</Data></Cell>
+    <Cell><Data ss:Type="String">Audacieux</Data></Cell>
+    <Cell><Data ss:Type="String">Negrita</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameColorAttrEditor_CheckBoxTextItalic</Data></Cell>
+    <Cell><Data ss:Type="String">Kursiv</Data></Cell>
+    <Cell><Data ss:Type="String">Italic</Data></Cell>
+    <Cell><Data ss:Type="String">Italique</Data></Cell>
+    <Cell><Data ss:Type="String">Itálico</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_General_LabelAlpha</Data></Cell>
+    <Cell><Data ss:Type="String">Alpha</Data></Cell>
+    <Cell><Data ss:Type="String">Alpha</Data></Cell>
+    <Cell><Data ss:Type="String">Alpha</Data></Cell>
+    <Cell><Data ss:Type="String">Alfa</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_General_LabelPrior</Data></Cell>
+    <Cell><Data ss:Type="String">Priorität</Data></Cell>
+    <Cell><Data ss:Type="String">Priority</Data></Cell>
+    <Cell><Data ss:Type="String">Priorité</Data></Cell>
+    <Cell><Data ss:Type="String">Prioridad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_General_RadioOn</Data></Cell>
+    <Cell><Data ss:Type="String">On</Data></Cell>
+    <Cell><Data ss:Type="String">On</Data></Cell>
+    <Cell><Data ss:Type="String">Sur</Data></Cell>
+    <Cell><Data ss:Type="String">En</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_General_RadioOff</Data></Cell>
+    <Cell><Data ss:Type="String">Off</Data></Cell>
+    <Cell><Data ss:Type="String">Off</Data></Cell>
+    <Cell><Data ss:Type="String">De</Data></Cell>
+    <Cell><Data ss:Type="String">Off</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_General_RadioInvert</Data></Cell>
+    <Cell><Data ss:Type="String">Invertiert</Data></Cell>
+    <Cell><Data ss:Type="String">Invert</Data></Cell>
+    <Cell><Data ss:Type="String">Inverser</Data></Cell>
+    <Cell><Data ss:Type="String">Invertir</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameDictionarys_LabelDicHunspell</Data></Cell>
+    <Cell><Data ss:Type="String">Wörterbücher (Hunspell):</Data></Cell>
+    <Cell><Data ss:Type="String">Dictionaries (Hunspell):</Data></Cell>
+    <Cell><Data ss:Type="String">Dictionnaires (Hunspell):</Data></Cell>
+    <Cell><Data ss:Type="String">Diccionarios (Hunspell):</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameDictionarys_ButtonHunAdd</Data></Cell>
+    <Cell><Data ss:Type="String">Wörterbücher (Benutzer):</Data></Cell>
+    <Cell><Data ss:Type="String">Dictionaries (User):</Data></Cell>
+    <Cell><Data ss:Type="String">Dictionnaires (Utilisateur):</Data></Cell>
+    <Cell><Data ss:Type="String">Diccionarios (Usuario):</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_General_BtnAdd</Data></Cell>
+    <Cell><Data ss:Type="String">Hinzufügen</Data></Cell>
+    <Cell><Data ss:Type="String">Add</Data></Cell>
+    <Cell><Data ss:Type="String">Ajouter</Data></Cell>
+    <Cell><Data ss:Type="String">Añadir</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_General_BtnEdit</Data></Cell>
+    <Cell><Data ss:Type="String">Editieren</Data></Cell>
+    <Cell><Data ss:Type="String">Edit</Data></Cell>
+    <Cell><Data ss:Type="String">Éditer</Data></Cell>
+    <Cell><Data ss:Type="String">Editar</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_General_BtnDel</Data></Cell>
+    <Cell><Data ss:Type="String">Löschen</Data></Cell>
+    <Cell><Data ss:Type="String">Remove</Data></Cell>
+    <Cell><Data ss:Type="String">Retirer</Data></Cell>
+    <Cell><Data ss:Type="String">Eliminar</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameStyleViewer_LabelStylesheet</Data></Cell>
+    <Cell><Data ss:Type="String">Stylesheet laden oder editieren:</Data></Cell>
+    <Cell><Data ss:Type="String">Load or edit stylesheet:</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Charger ou modifier la feuille de style:</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Cargar o editar stylesheet:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameStyleGeneral_TabSheetHead</Data></Cell>
+    <Cell><Data ss:Type="String">Head</Data></Cell>
+    <Cell><Data ss:Type="String">Head</Data></Cell>
+    <Cell><Data ss:Type="String">Head</Data></Cell>
+    <Cell><Data ss:Type="String">Head</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameStyleGeneral_TabSheetFoot</Data></Cell>
+    <Cell><Data ss:Type="String">Foot</Data></Cell>
+    <Cell><Data ss:Type="String">Foot</Data></Cell>
+    <Cell><Data ss:Type="String">Foot</Data></Cell>
+    <Cell><Data ss:Type="String">Foot</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameStyleViewer_LabelDarkMode</Data></Cell>
+    <Cell><Data ss:Type="String">DarkMode</Data></Cell>
+    <Cell><Data ss:Type="String">DarkMode</Data></Cell>
+    <Cell><Data ss:Type="String">Mode sombre</Data></Cell>
+    <Cell><Data ss:Type="String">Modo oscuro</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameStyleViewer_LabelLightMode</Data></Cell>
+    <Cell><Data ss:Type="String">LightMode</Data></Cell>
+    <Cell><Data ss:Type="String">LightMode</Data></Cell>
+    <Cell><Data ss:Type="String">Mode lumière</Data></Cell>
+    <Cell><Data ss:Type="String">Modo de luz</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameStyleExportHtml_LabelStylesheet</Data></Cell>
+    <Cell><Data ss:Type="String">Stylesheet laden oder editieren:</Data></Cell>
+    <Cell><Data ss:Type="String">Load or edit stylesheet:</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Charger ou modifier la feuille de style:</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Cargar o editar stylesheet:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameStyleExportPdf_LabelStylesheet</Data></Cell>
+    <Cell><Data ss:Type="String">Stylesheet laden oder editieren:</Data></Cell>
+    <Cell><Data ss:Type="String">Load or edit stylesheet:</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Charger ou modifier la feuille de style:</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Cargar o editar stylesheet:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameStylePrint_LabelStylesheet</Data></Cell>
+    <Cell><Data ss:Type="String">Stylesheet laden oder editieren:</Data></Cell>
+    <Cell><Data ss:Type="String">Load or edit stylesheet:</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Charger ou modifier la feuille de style:</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Cargar o editar stylesheet:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameStyleExportPdfHF_LabelEven</Data></Cell>
+    <Cell><Data ss:Type="String">Gerde Seiten einrichten:</Data></Cell>
+    <Cell><Data ss:Type="String">To set up even pages:</Data></Cell>
+    <Cell><Data ss:Type="String">Pour configurer des pages simples:</Data></Cell>
+    <Cell><Data ss:Type="String">Para configurar páginas rectas:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameStyleExportPdfHF_LabelOdd</Data></Cell>
+    <Cell><Data ss:Type="String">Ungerde Seiten einrichten:</Data></Cell>
+    <Cell><Data ss:Type="String">To set up odd pages:</Data></Cell>
+    <Cell><Data ss:Type="String">Pour configurer des pages impaires:</Data></Cell>
+    <Cell><Data ss:Type="String">Para configurar páginas impares:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameStylePrintHF_LabelEven</Data></Cell>
+    <Cell><Data ss:Type="String">Gerde Seiten einrichten:</Data></Cell>
+    <Cell><Data ss:Type="String">To set up even pages:</Data></Cell>
+    <Cell><Data ss:Type="String">Pour configurer des pages simples:</Data></Cell>
+    <Cell><Data ss:Type="String">Para configurar páginas rectas:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameStylePrintHF_LabelOdd</Data></Cell>
+    <Cell><Data ss:Type="String">Ungerde Seiten einrichten:</Data></Cell>
+    <Cell><Data ss:Type="String">To set up odd pages:</Data></Cell>
+    <Cell><Data ss:Type="String">Pour configurer des pages impaires:</Data></Cell>
+    <Cell><Data ss:Type="String">Para configurar páginas impares:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FormSettings_FormSettings</Data></Cell>
+    <Cell><Data ss:Type="String">Einstellungen</Data></Cell>
+    <Cell><Data ss:Type="String">Settings</Data></Cell>
+    <Cell><Data ss:Type="String">Réglages</Data></Cell>
+    <Cell><Data ss:Type="String">Configuraciones</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_General_BtnOk</Data></Cell>
+    <Cell><Data ss:Type="String">Ok</Data></Cell>
+    <Cell><Data ss:Type="String">Ok</Data></Cell>
+    <Cell><Data ss:Type="String">Valider</Data></Cell>
+    <Cell><Data ss:Type="String">Okay</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_General_BtnCancel</Data></Cell>
+    <Cell><Data ss:Type="String">Abbrechen</Data></Cell>
+    <Cell><Data ss:Type="String">Cancel</Data></Cell>
+    <Cell><Data ss:Type="String">Annuler</Data></Cell>
+    <Cell><Data ss:Type="String">Cancelar</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameCnfLocalize_TreeLocalize</Data></Cell>
+    <Cell><Data ss:Type="String">Land</Data></Cell>
+    <Cell><Data ss:Type="String">Localize</Data></Cell>
+    <Cell><Data ss:Type="String">Pays</Data></Cell>
+    <Cell><Data ss:Type="String">País</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameCnfLocalizeLng_TreeLanguage</Data></Cell>
+    <Cell><Data ss:Type="String">Sprache</Data></Cell>
+    <Cell><Data ss:Type="String">Language</Data></Cell>
+    <Cell><Data ss:Type="String">Langue</Data></Cell>
+    <Cell><Data ss:Type="String">Idioma</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrame_TreeEditor</Data></Cell>
+    <Cell><Data ss:Type="String">Editor</Data></Cell>
+    <Cell><Data ss:Type="String">Editor</Data></Cell>
+    <Cell><Data ss:Type="String">Éditeur</Data></Cell>
+    <Cell><Data ss:Type="String">Editor</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameThemes_TreeThemes</Data></Cell>
+    <Cell><Data ss:Type="String">Themes</Data></Cell>
+    <Cell><Data ss:Type="String">Themes</Data></Cell>
+    <Cell><Data ss:Type="String">Thèmes</Data></Cell>
+    <Cell><Data ss:Type="String">Temas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameColours_TreeColours</Data></Cell>
+    <Cell><Data ss:Type="String">Farben</Data></Cell>
+    <Cell><Data ss:Type="String">Colours</Data></Cell>
+    <Cell><Data ss:Type="String">Couleurs</Data></Cell>
+    <Cell><Data ss:Type="String">Colores</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameDisplay_TreeDisplay</Data></Cell>
+    <Cell><Data ss:Type="String">Anzeige</Data></Cell>
+    <Cell><Data ss:Type="String">Display</Data></Cell>
+    <Cell><Data ss:Type="String">Afficher</Data></Cell>
+    <Cell><Data ss:Type="String">Monitor</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_CnfSyneditFrameGeneral_TreeGeneral</Data></Cell>
+    <Cell><Data ss:Type="String">Allgemein</Data></Cell>
+    <Cell><Data ss:Type="String">General</Data></Cell>
+    <Cell><Data ss:Type="String">Général</Data></Cell>
+    <Cell><Data ss:Type="String">General</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameSpelling_TreeSpelling</Data></Cell>
+    <Cell><Data ss:Type="String">Rechtschreibung</Data></Cell>
+    <Cell><Data ss:Type="String">Spelling</Data></Cell>
+    <Cell><Data ss:Type="String">Orthographe</Data></Cell>
+    <Cell><Data ss:Type="String">Ortografía</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameSpellingDictionarys_TreeDict</Data></Cell>
+    <Cell><Data ss:Type="String">Wörterbücher</Data></Cell>
+    <Cell><Data ss:Type="String">Dictionaries</Data></Cell>
+    <Cell><Data ss:Type="String">Dictionnaires</Data></Cell>
+    <Cell><Data ss:Type="String">Diccionarios</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameStyle_TreeStylesheets</Data></Cell>
+    <Cell><Data ss:Type="String">Stylesheets</Data></Cell>
+    <Cell><Data ss:Type="String">Stylesheets</Data></Cell>
+    <Cell><Data ss:Type="String">Stylesheets</Data></Cell>
+    <Cell><Data ss:Type="String">Stylesheets</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameStyleExportHtml_TreeExportHtml</Data></Cell>
+    <Cell><Data ss:Type="String">Export HTML</Data></Cell>
+    <Cell><Data ss:Type="String">Export HTML</Data></Cell>
+    <Cell><Data ss:Type="String">Exporter du HTML</Data></Cell>
+    <Cell><Data ss:Type="String">Exportar HTML</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameStyleExportPdf_TreeExportPdf</Data></Cell>
+    <Cell><Data ss:Type="String">Export PDF</Data></Cell>
+    <Cell><Data ss:Type="String">Export PDF</Data></Cell>
+    <Cell><Data ss:Type="String">Exporter un PDF</Data></Cell>
+    <Cell><Data ss:Type="String">Exportar PDF</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameStyleExportPdfHF_TreeHF</Data></Cell>
+    <Cell><Data ss:Type="String">Kopfzeilen Fußzeilen</Data></Cell>
+    <Cell><Data ss:Type="String">Headers footers</Data></Cell>
+    <Cell><Data ss:Type="String">En-têtes Pieds de page</Data></Cell>
+    <Cell><Data ss:Type="String">Encabezados pies de página</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameStylePrint_TreePrint</Data></Cell>
+    <Cell><Data ss:Type="String">Drucken</Data></Cell>
+    <Cell><Data ss:Type="String">Printing</Data></Cell>
+    <Cell><Data ss:Type="String">Impression</Data></Cell>
+    <Cell><Data ss:Type="String">Impresión</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameStylePrintHF_TreeHF</Data></Cell>
+    <Cell><Data ss:Type="String">Kopfzeilen Fußzeilen</Data></Cell>
+    <Cell><Data ss:Type="String">Headers footers</Data></Cell>
+    <Cell><Data ss:Type="String">En-têtes Pieds de page</Data></Cell>
+    <Cell><Data ss:Type="String">Encabezados pies de página</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FrameStyleViewer_TreeViewer</Data></Cell>
+    <Cell><Data ss:Type="String">Viewer</Data></Cell>
+    <Cell><Data ss:Type="String">Viewer</Data></Cell>
+    <Cell><Data ss:Type="String">Téléspectateur</Data></Cell>
+    <Cell><Data ss:Type="String">Viewer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FormSpellCheckDlg_Title</Data></Cell>
+    <Cell><Data ss:Type="String">Rechtschreibung</Data></Cell>
+    <Cell><Data ss:Type="String">spelling</Data></Cell>
+    <Cell><Data ss:Type="String">orthographe</Data></Cell>
+    <Cell><Data ss:Type="String">ortografía</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FormSpellCheckDlg_CheckBoxSpellCheckActive</Data></Cell>
+    <Cell><Data ss:Type="String">Rechtschreibprüfung aktiv</Data></Cell>
+    <Cell><Data ss:Type="String">Spell check active</Data></Cell>
+    <Cell><Data ss:Type="String">Vérification orthographique active</Data></Cell>
+    <Cell><Data ss:Type="String">Corrector ortográfico activo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FormSpellCheckDlg_CheckBoxCamelCase</Data></Cell>
+    <Cell><Data ss:Type="String">Ignoriere CamelCase</Data></Cell>
+    <Cell><Data ss:Type="String">Ignore CamelCase</Data></Cell>
+    <Cell><Data ss:Type="String">Ignorer CamelCase</Data></Cell>
+    <Cell><Data ss:Type="String">Ignorar CamelCase</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FormSpellCheckDlg_CheckBoxUpperCase</Data></Cell>
+    <Cell><Data ss:Type="String">Ignoriere Wörter in Großbuchstaben</Data></Cell>
+    <Cell><Data ss:Type="String">Ignore words in capital letters</Data></Cell>
+    <Cell><Data ss:Type="String">Ignorer les mots en majuscules</Data></Cell>
+    <Cell><Data ss:Type="String">Ignorar palabras en mayúsculas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T_FormSpellCheckDlg_LabelActiveLng</Data></Cell>
+    <Cell><Data ss:Type="String">Aktive Sprache:</Data></Cell>
+    <Cell><Data ss:Type="String">Active language:</Data></Cell>
+    <Cell><Data ss:Type="String">Langue active:</Data></Cell>
+    <Cell><Data ss:Type="String">Lenguaje activo:</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.4921259845"/>
+    <Footer x:Margin="0.4921259845"/>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

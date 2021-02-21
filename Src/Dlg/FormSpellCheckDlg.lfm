@@ -1,0 +1,127 @@
+inherited FormSpellCheckDlg: TFormSpellCheckDlg
+  Left = 601
+  Height = 259
+  Top = 350
+  Width = 462
+  Caption = 'Rechtschreibung'
+  ClientHeight = 259
+  ClientWidth = 462
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnShow = FormShow
+  object Panel2: TPanel[0]
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Side = asrBottom
+    Left = 7
+    Height = 2
+    Top = 215
+    Width = 442
+    Anchors = [akLeft, akRight, akBottom]
+    BevelOuter = bvLowered
+    BorderStyle = bsSingle
+    TabOrder = 0
+  end
+  object ButtonOk: TButton[1]
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Side = asrBottom
+    Left = 375
+    Height = 25
+    Top = 226
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Caption = 'Ok'
+    Default = True
+    OnClick = ButtonOkClick
+    TabOrder = 1
+  end
+  object ButtonCancel: TButton[2]
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Side = asrBottom
+    Left = 272
+    Height = 25
+    Top = 226
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Caption = 'Abbrechen'
+    OnClick = ButtonCancelClick
+    TabOrder = 2
+  end
+  object GroupBoxSpellCheck: TGroupBox[3]
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Side = asrBottom
+    Left = 7
+    Height = 176
+    Top = 32
+    Width = 443
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    ClientHeight = 156
+    ClientWidth = 439
+    TabOrder = 3
+    object ComboBoxActiveLng: TComboBox
+      AnchorSideLeft.Control = GroupBoxSpellCheck
+      AnchorSideTop.Control = GroupBoxSpellCheck
+      AnchorSideRight.Side = asrBottom
+      Left = 135
+      Height = 23
+      Top = 10
+      Width = 291
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 135
+      BorderSpacing.Top = 10
+      ItemHeight = 15
+      OnChange = ComboBoxActiveLngChange
+      ParentShowHint = False
+      Style = csDropDownList
+      TabOrder = 0
+    end
+    object LabelActiveLng: TLabel
+      AnchorSideLeft.Control = GroupBoxSpellCheck
+      AnchorSideTop.Control = GroupBoxSpellCheck
+      Left = 5
+      Height = 15
+      Top = 10
+      Width = 81
+      BorderSpacing.Left = 5
+      BorderSpacing.Top = 10
+      Caption = 'Aktive Sprache:'
+      ParentColor = False
+    end
+    object CheckBoxCamelCase: TCheckBoxThemed
+      AnchorSideLeft.Control = GroupBoxSpellCheck
+      AnchorSideTop.Control = GroupBoxSpellCheck
+      Left = 135
+      Height = 19
+      Top = 55
+      Width = 129
+      BorderSpacing.Left = 135
+      BorderSpacing.Top = 55
+      Caption = 'Ignoriere CamelCase'
+      TabOrder = 1
+      OnChange = CheckBoxCamelCaseChange
+    end
+    object CheckBoxUpperCase: TCheckBoxThemed
+      AnchorSideLeft.Control = GroupBoxSpellCheck
+      AnchorSideTop.Control = GroupBoxSpellCheck
+      Left = 135
+      Height = 19
+      Top = 90
+      Width = 210
+      BorderSpacing.Left = 135
+      BorderSpacing.Top = 90
+      Caption = 'Ignoriere Wörter in Großbuchstaben'
+      TabOrder = 2
+      OnChange = CheckBoxUpperCaseChange
+    end
+  end
+  object CheckBoxSpellCheckActive: TCheckBoxThemed[4]
+    Left = 8
+    Height = 19
+    Top = 8
+    Width = 159
+    Caption = 'Rechtschreibprüfung aktiv'
+    Checked = True
+    State = cbChecked
+    TabOrder = 4
+    OnChange = CheckBoxSpellCheckActiveChange
+  end
+end

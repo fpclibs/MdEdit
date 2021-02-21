@@ -1,0 +1,323 @@
+inherited FrameDictionarys: TFrameDictionarys
+  AnchorSideRight.Side = asrBottom
+  AnchorSideBottom.Side = asrBottom
+  Height = 480
+  Width = 561
+  HorzScrollBar.Page = 1
+  VertScrollBar.Page = 1
+  Anchors = [akTop, akLeft, akRight, akBottom]
+  AutoScroll = True
+  ClientHeight = 480
+  ClientWidth = 561
+  Color = clForm
+  ParentColor = False
+  DesignLeft = 2060
+  DesignTop = 203
+  object LabelDicHunspell: TLabel[0]
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    Left = 2
+    Height = 15
+    Top = 10
+    Width = 134
+    BorderSpacing.Left = 2
+    BorderSpacing.Top = 10
+    Caption = 'Wörterbücher (Hunspell):'
+    ParentColor = False
+  end
+  object ButtonHunAdd: TButton[1]
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = ListBoxHun
+    AnchorSideTop.Side = asrBottom
+    Left = 2
+    Height = 25
+    Top = 174
+    Width = 75
+    BorderSpacing.Left = 2
+    BorderSpacing.Top = 8
+    Caption = 'Hinzufügen'
+    OnClick = ButtonHunAddClick
+    TabOrder = 0
+  end
+  object ButtonHunEdit: TButton[2]
+    AnchorSideLeft.Control = ButtonHunAdd
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = ListBoxHun
+    AnchorSideTop.Side = asrBottom
+    Left = 92
+    Height = 25
+    Top = 174
+    Width = 75
+    BorderSpacing.Left = 15
+    BorderSpacing.Top = 8
+    Caption = 'Editieren'
+    OnClick = ButtonHunEditClick
+    TabOrder = 1
+  end
+  object ButtonHunDel: TButton[3]
+    AnchorSideLeft.Control = ButtonHunEdit
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = ListBoxHun
+    AnchorSideTop.Side = asrBottom
+    Left = 182
+    Height = 25
+    Top = 174
+    Width = 75
+    BorderSpacing.Left = 15
+    BorderSpacing.Top = 8
+    Caption = 'Löschen'
+    OnClick = ButtonHunDelClick
+    TabOrder = 2
+  end
+  object LabelDicUser: TLabel[4]
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = ListBoxHun
+    AnchorSideTop.Side = asrBottom
+    Left = 2
+    Height = 15
+    Top = 226
+    Width = 133
+    BorderSpacing.Left = 2
+    BorderSpacing.Top = 60
+    Caption = 'Wörterbücher (Benutzer):'
+    ParentColor = False
+  end
+  object ButtonUsrAdd: TButton[5]
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = ListBoxUsr
+    AnchorSideTop.Side = asrBottom
+    Left = 2
+    Height = 25
+    Top = 390
+    Width = 75
+    BorderSpacing.Left = 2
+    BorderSpacing.Top = 8
+    Caption = 'Hinzufügen'
+    OnClick = ButtonUsrAddClick
+    TabOrder = 3
+  end
+  object ButtonUsrEdit: TButton[6]
+    AnchorSideLeft.Control = ButtonUsrAdd
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = ListBoxUsr
+    AnchorSideTop.Side = asrBottom
+    Left = 92
+    Height = 25
+    Top = 390
+    Width = 75
+    BorderSpacing.Left = 15
+    BorderSpacing.Top = 8
+    Caption = 'Editieren'
+    OnClick = ButtonUsrEditClick
+    TabOrder = 4
+  end
+  object ButtonUsrDel: TButton[7]
+    AnchorSideLeft.Control = ButtonUsrEdit
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = ListBoxUsr
+    AnchorSideTop.Side = asrBottom
+    Left = 182
+    Height = 25
+    Top = 390
+    Width = 75
+    BorderSpacing.Left = 15
+    BorderSpacing.Top = 8
+    Caption = 'Löschen'
+    OnClick = ButtonUsrDelClick
+    TabOrder = 5
+  end
+  object ListBoxHun: TListBox[8]
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = LabelDicHunspell
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 2
+    Height = 136
+    Top = 30
+    Width = 558
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 2
+    BorderSpacing.Top = 5
+    BorderSpacing.Right = 1
+    Constraints.MinWidth = 400
+    ItemHeight = 0
+    OnDblClick = ListBoxHunDblClick
+    OnSelectionChange = ListBoxHunSelectionChange
+    ScrollWidth = 556
+    TabOrder = 6
+  end
+  object ListBoxUsr: TListBox[9]
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = LabelDicUser
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 2
+    Height = 136
+    Top = 246
+    Width = 558
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 2
+    BorderSpacing.Top = 5
+    BorderSpacing.Right = 1
+    Constraints.MinWidth = 400
+    ItemHeight = 0
+    OnDblClick = ListBoxUsrDblClick
+    OnSelectionChange = ListBoxUsrSelectionChange
+    ScrollWidth = 556
+    TabOrder = 7
+  end
+  object BitBtnHunUp: TBitBtn[10]
+    AnchorSideTop.Control = ListBoxHun
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = BitBtnHunDw
+    Left = 480
+    Height = 25
+    Top = 174
+    Width = 32
+    Anchors = [akTop, akRight]
+    BorderSpacing.Top = 8
+    BorderSpacing.Right = 15
+    Images = ImageListFrameDict
+    ImageIndex = 0
+    OnClick = BitBtnHunUpClick
+    Spacing = 0
+    TabOrder = 8
+  end
+  object BitBtnHunDw: TBitBtn[11]
+    AnchorSideTop.Control = ListBoxHun
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 527
+    Height = 25
+    Top = 174
+    Width = 32
+    Anchors = [akTop, akRight]
+    BorderSpacing.Top = 8
+    BorderSpacing.Right = 2
+    Images = ImageListFrameDict
+    ImageIndex = 1
+    OnClick = BitBtnHunDwClick
+    Spacing = 0
+    TabOrder = 9
+  end
+  object BitBtnUsrDw: TBitBtn[12]
+    AnchorSideTop.Control = ListBoxUsr
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 528
+    Height = 25
+    Top = 390
+    Width = 32
+    Anchors = [akTop, akRight]
+    BorderSpacing.Top = 8
+    BorderSpacing.Right = 1
+    Images = ImageListFrameDict
+    ImageIndex = 1
+    OnClick = BitBtnUsrDwClick
+    Spacing = 0
+    TabOrder = 10
+  end
+  object BitBtnUsrUp: TBitBtn[13]
+    AnchorSideTop.Control = ListBoxUsr
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = BitBtnUsrDw
+    Left = 481
+    Height = 25
+    Top = 390
+    Width = 32
+    Anchors = [akTop, akRight]
+    BorderSpacing.Top = 8
+    BorderSpacing.Right = 15
+    Images = ImageListFrameDict
+    ImageIndex = 0
+    OnClick = BitBtnUsrUpClick
+    Spacing = 0
+    TabOrder = 11
+  end
+  object OpenDialogHun: TOpenDialog[14]
+    Filter = 'Dictionary|*.dic|All Files|*.*'
+    Options = [ofPathMustExist, ofFileMustExist, ofEnableSizing, ofViewDetail]
+    left = 32
+    top = 424
+  end
+  object OpenDialogUsr: TOpenDialog[15]
+    Filter = 'Dictionary|*.dic|All Files|*.*'
+    left = 120
+    top = 424
+  end
+  object ImageListFrameDict: TImageList[16]
+    left = 208
+    top = 424
+    Bitmap = {
+      4C69020000001000000010000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000371E1912A4674698A5674698371E191200000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000080543285CF9973F0D09A73F08155338500000000000000000000
+      000000000000000000000000000000000000000000000000000000000000120C
+      060A82543171D69F78FBFECAA8FFFECBA8FFD8A17AFB83553275120B060A0000
+      0000000000000000000000000000000000000000000000000000000000008456
+      305FCA9167E9FDC9A7FFFFCCAAFFFFCCAAFFFDCAA7FFCC9269EA855631620000
+      000000000000000000000000000000000000000000000000000000000000754B
+      2A9FAD4A29AACC9164FEFFCCAAFFFFCCAAFFCC9164FEAD4A29AA754B2A9F0000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000AA000000CE9164FFFFCCAAFFFFCCAAFFCE9164FFAA000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000AA000000D29465FFFFCCAAFFFFCCAAFFD29465FFAA000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000AA000000D49566FFFFCCAAFFFFCCAAFFD49566FFAA000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000AA000000D49566FFFFCCAAFFFFCCAAFFD49566FFAA000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000AA000000D49566FFFFCCAAFFFFCCAAFFD49566FFAA000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000AA000000D49566FFFFCCAAFFFFCCAAFFD49566FFAA000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000AA000000C68351FAD49566FFD49566FFC68351FAAA000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000AA000000C68351FAD49566FFD49566FFC68351FAAA000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000AA000000D49566FFFFCCAAFFFFCCAAFFD49566FFAA000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000AA000000D49566FFFFCCAAFFFFCCAAFFD49566FFAA000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000AA000000D49566FFFFCCAAFFFFCCAAFFD49566FFAA000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000AA000000D49566FFFFCCAAFFFFCCAAFFD49566FFAA000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000AA000000D29465FFFFCCAAFFFFCCAAFFD29465FFAA000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000AA000000CE9164FFFFCCAAFFFFCCAAFFCE9164FFAA000000000000000000
+      000000000000000000000000000000000000000000000000000000000000744A
+      299FAD4A29AACC9064FEFFCCAAFFFFCCAAFFCC9064FEAD4A29AA744A299F0000
+      0000000000000000000000000000000000000000000000000000000000008456
+      305FCA9167E9FDC9A7FFFFCCAAFFFFCCAAFFFDCAA7FFCC9268EA86552F620000
+      000000000000000000000000000000000000000000000000000000000000120C
+      060A82543171D69F78FBFECAA8FFFECBA8FFD8A17AFB83543275120B060A0000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000007F543184CE9871F0D09A72F08154338500000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000371E1912A4674598A5674698371E191200000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000
+    }
+  end
+end

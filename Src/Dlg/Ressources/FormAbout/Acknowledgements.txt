@@ -1,0 +1,58 @@
+# The following people contributed to MdEdit:
+
+Andreas Peter Luft <fpclibs@online.de>
+Main developing in C, C++, QT and ohters.
+Pascal/Lazarus is just a hobby.
+
+https://github.com/FpcLibs/MdEdit
+
+
+# And special thanks 
+
+Special thanks to the Tito Hinostroza – Lima Perú. 
+He has written the SynEdit-Bible in Spanish.
+
+I was need this information to understand SynEdit.
+http://blog.pucp.edu.pe/blog/tito/2013/10/12/lazarus-la-biblia-del-synedit/
+
+
+# MdEdit uses the following third party libraries and tools
+
+# Lazarus Project
+https://wiki.lazarus.freepascal.org/FPC_modified_LGPL
+
+# fpc_markdown:
+This is a library that processes markdown to HTML
+
+Miguel A. Risco-Castillo
+http://www.apache.org/licenses/LICENSE-2.0
+FPC-markdown is a fork of Grahame Grieve <grahameg@gmail.com>
+Delphi-markdown 
+https://github.com/grahamegrieve/delphi-markdown
+
+# HtmlViewer:
+The HTML component set consists of the ThtmlViewer, 
+TFrameViewer, and TFrameBrowser components.
+
+Copyright (c) 1995-2008 by L. David Baldwin
+Copyright (c) 2008-2017 by HtmlViewer Team
+http://www.famfamfam.com/lab/icons/silk/
+
+# SynEdit: 
+SynEdit is a syntax highlighting edit control
+
+Mozilla Public License Version 1.1 (the "License")
+GNU General Public License Version 2 or later (the "GPL")
+http://SynEdit.SourceForge.net  
+
+# Hunspell: 
+Hunspell is a spell checker and morphological analyser.
+Need external library and a fpc Hunspell interface.
+
+https://github.com/hunspell/hunspell
+
+# Dictionaries:
+You can use LibreOffice dictionaries
+
+https://github.com/LibreOffice/dictionaries
+

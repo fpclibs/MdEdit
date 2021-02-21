@@ -1,0 +1,82 @@
+LazarusResources.Add('Disclaimer','TXT',[
+  'Disclaimer of Warranties '#13#10#13#10'This program is free Software and it '
+  +'is distributed in '#13#10'the hope that it will be useful.'#13#10#13#10'THE'
+  +' SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF '#13#10'ANY KIND, EXPRES'
+  +'S OR IMPLIED, INCLUDING BUT NOT LIMITED '#13#10'TO THE WARRANTIES OF MERCHA'
+  +'NTABILITY, FITNESS FOR A '#13#10'PARTICULAR PURPOSE AND NONINFRINGEMENT. IN'
+  +' NO EVENT '#13#10'SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR '#13
+  +#10'ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN '#13#10'ACTION OF C'
+  +'ONTRACT, TORT OR OTHERWISE, ARISING FROM, '#13#10'OUT OF OR IN CONNECTION W'
+  +'ITH THE SOFTWARE OR THE USE '#13#10'OR OTHER DEALINGS IN THE SOFTWARE.'#13
+  +#10#13#10'DIE SOFTWARE WIRD "WIE BESEHEN" OHNE JEGLICHE '#13#10'AUSDR'#195
+  +#156'CKLICHE ODER STILLSCHWEIGENDE GEW'#195#132'HRLEISTUNG '#13#10'ZUR VERF'
+  +#195#156'GUNG GESTELLT, EINSCHLIESSLICH DER '#13#10'GEW'#195#132'HRLEISTUNG '
+  +'F'#195#156'R MARKTG'#195#132'NGIGKEIT, EIGNUNG F'#195#156'R EINEN '#13#10'B'
+  +'ESTIMMTEN ZWECK UND NICHTVERLETZUNG. IN KEINEM FALL '#13#10'HAFTEN DIE AUTO'
+  +'REN ODER COPYRIGHT-INHABER F'#195#156'R JEGLICHE '#13#10'ANSPR'#195#156'CHE'
+  +', SCH'#195#132'DEN ODER ANDERE HAFTUNGEN, OB VERTRAGS-, '#13#10'SCHADENSERS'
+  +'ATZRECHT ODER ANDERWEITIGE MASSNAHMEN IM '#13#10'ZUSAMMENHANG MIT DER SOFTW'
+  +'ARE ODER DER NUTZUNG ANDERER '#13#10'FUNKTIONEN DER SOFTWARE.'#13#10
+]);
+LazarusResources.Add('Acknowledgements','TXT',[
+  '# The following people contributed to MdEdit:'#13#10#13#10'Andreas Peter Luf'
+  +'t <fpclibs@online.de>'#13#10'Main developing in C, C++, QT and ohters.'#13
+  +#10'Pascal/Lazarus is just a hobby.'#13#10#13#10'# And special thanks '#13#10
+  +#13#10'Special thanks to the Tito Hinostroza '#226#128#147' Lima Per'#195#186
+  +'. '#13#10'He has written the SynEdit-Bible in Spanish.'#13#10#13#10'I was n'
+  +'eed this information to understand SynEdit.'#13#10'http://blog.pucp.edu.pe/'
+  +'blog/tito/2013/10/12/lazarus-la-biblia-del-synedit/'#13#10#13#10#13#10'# Md'
+  +'Edit uses the following third party libraries and tools'#13#10#13#10'# Laza'
+  +'rus Project'#13#10'https://wiki.lazarus.freepascal.org/FPC_modified_LGPL'#13
+  +#10#13#10'# fpc_markdown:'#13#10'This is a library that processes markdown t'
+  +'o HTML'#13#10#13#10'Miguel A. Risco-Castillo'#13#10'http://www.apache.org/l'
+  +'icenses/LICENSE-2.0'#13#10'FPC-markdown is a fork of Grahame Grieve <graham'
+  +'eg@gmail.com>'#13#10'Delphi-markdown '#13#10'https://github.com/grahamegrie'
+  +'ve/delphi-markdown'#13#10#13#10'# HtmlViewer:'#13#10'The HTML component set'
+  +' consists of the ThtmlViewer, '#13#10'TFrameViewer, and TFrameBrowser compo'
+  +'nents.'#13#10#13#10'Copyright (c) 1995-2008 by L. David Baldwin'#13#10'Copy'
+  +'right (c) 2008-2017 by HtmlViewer Team'#13#10'http://www.famfamfam.com/lab/'
+  +'icons/silk/'#13#10#13#10'# SynEdit: '#13#10'SynEdit is a syntax highlightin'
+  +'g edit control'#13#10#13#10'Mozilla Public License Version 1.1 (the "Licens'
+  +'e")'#13#10'GNU General Public License Version 2 or later (the "GPL")'#13#10
+  +'http://SynEdit.SourceForge.net  '#13#10#13#10'# Hunspell: '#13#10'Hunspell '
+  +'is a spell checker and morphological analyser.'#13#10'Need external library'
+  +' and a fpc Hunspell interface.'#13#10#13#10'https://github.com/hunspell/hun'
+  +'spell'#13#10#13#10'# Dictionaries:'#13#10'You can use LibreOffice dictionar'
+  +'ies'#13#10#13#10'https://github.com/LibreOffice/dictionaries'#13#10#13#10
+]);
+LazarusResources.Add('About','TXT',[
+  '# MdEdit'#13#10#13#10'MdEdit is a markdown editor with an integrated'#13#10
+  +'Markdown viewer.'#13#10#13#10'# Lizenz'#13#10' '#13#10'Lazarus modified Lib'
+  +'rary GNU General Public License und '#13#10'entsprechende Lizenzen der verw'
+  +'endeten Pakete.'#13#10#13#10'https://wiki.lazarus.freepascal.org/FPC_modifi'
+  +'ed_LGPL'#13#10#13#10'# Intention'#13#10#13#10'The Markdown syntax is ideal '
+  +'for versioning text documents, for '#13#10'example with GIT or SVN. The syn'
+  +'tax for the formatting is '#13#10'well designed so that the plane text is a'
+  +'lways easy to read.'#13#10#13#10'MdEdit is based on the FPC Markdown, the S'
+  +'ysEdit and the '#13#10'HtmlViewer package. In addition, Markdown syntex hig'
+  +'hlighting '#13#10'and a spell checker based on Hunspell are implemented.'#13
+  +#10#13#10'The project was started by Andreas Peter Luft as a private '#13#10
+  +'development project to get to know SynEdit better. Above all '#13#10'to res'
+  +'earch how to develop your own syntax higliegter or '#13#10'implement a spel'
+  +'l check in SynEdit.'#13#10#13#10'Additional support is required for the fur'
+  +'ther development of '#13#10'MdEdit.'#13#10#13#10'-  Andreas Peter Luft -'#13
+  +#10#13#10#13#10'# MdEdit'#13#10#13#10'MdEdit ist ein Markdown Editor mit ein'
+  +'em integrierten'#13#10'Markdown-Viewer.'#13#10#13#10'# Lizenz '#13#10#13#10
+  +'Lazarus modified Library GNU General Public License und '#13#10'entsprechen'
+  +'de Lizenzen der verwendeten Pakete.'#13#10#13#10'https://wiki.lazarus.freep'
+  +'ascal.org/FPC_modified_LGPL'#13#10#13#10'# Intention'#13#10#13#10'Die Synta'
+  +'x von Markdown eignet sich prima, um Text-Dokumente '#13#10'zu versionieren'
+  +', zum Beispiel mit GIT oder SVN. Die Syntax f'#195#188'r '#13#10'die Format'
+  +'ierung ist dabei so gestaltet, dass der Plane Text immer '#13#10'gut lesbar'
+  +' bleibt.'#13#10#13#10'MdEdit beruht auf dem FPC-Markdown, dem SysEdit und d'
+  +'em '#13#10'HtmlViewer Paket. Au'#195#159'erdem ist ein Markdown-Syntexhighi'
+  +'ghting '#13#10'und eine Rechtschreibpr'#195#188'fung auf Basis von Hunspell'
+  +' '#13#10'implementiert. '#13#10#13#10'Das Projekt wurde von Andreas Peter L'
+  +'uft als privates '#13#10'Entwicklungsprojekt gestartet, um SynEdit besser k'
+  +'ennenzulernen. '#13#10'Vor allem, um zu erforschen, wie man einen eigenen S'
+  +'yntaxhigliegter '#13#10'entwickelt oder eine Rechtschreibpr'#195#188'fung i'
+  +'n SynEdit '#13#10'implementieren kann.'#13#10#13#10'F'#195#188'r die Weiter'
+  +'entwicklung von MdEdit wird zus'#195#164'tzliche Unterst'#195#188'tzung '#13
+  +#10'ben'#195#182'tigt.'#13#10#13#10'-  Andreas Peter Luft -'#13#10
+]);

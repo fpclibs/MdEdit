@@ -1,0 +1,105 @@
+object FormSettings: TFormSettings
+  Left = 252
+  Height = 569
+  Top = 279
+  Width = 812
+  AlphaBlendValue = 50
+  Caption = 'Einstellungen'
+  ClientHeight = 569
+  ClientWidth = 812
+  Color = clForm
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '2.0.8.0'
+  object PairSplitter1: TPairSplitter
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Side = asrBottom
+    Left = 0
+    Height = 520
+    Top = 0
+    Width = 814
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Position = 250
+    object PairSplitterSide1: TPairSplitterSide
+      Cursor = crArrow
+      Left = 0
+      Height = 520
+      Top = 0
+      Width = 250
+      ClientWidth = 250
+      ClientHeight = 520
+      object TreeViewSettings: TTreeView
+        AnchorSideRight.Side = asrBottom
+        AnchorSideBottom.Side = asrBottom
+        Left = 8
+        Height = 514
+        Top = 6
+        Width = 241
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        ReadOnly = True
+        TabOrder = 0
+        OnCustomDrawItem = TreeViewSettingsCustomDrawItem
+        OnSelectionChanged = TreeViewSettingsSelectionChanged
+        Options = [tvoAutoItemHeight, tvoHideSelection, tvoKeepCollapsedNodes, tvoReadOnly, tvoShowButtons, tvoShowLines, tvoShowRoot, tvoToolTips, tvoThemedDraw]
+      end
+    end
+    object PairSplitterSide2: TPairSplitterSide
+      Cursor = crArrow
+      Left = 255
+      Height = 520
+      Top = 0
+      Width = 559
+      ClientWidth = 559
+      ClientHeight = 520
+      object Panel1: TPanel
+        AnchorSideRight.Side = asrBottom
+        AnchorSideBottom.Side = asrBottom
+        Left = 0
+        Height = 522
+        Top = -2
+        Width = 558
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        BevelOuter = bvNone
+        TabOrder = 0
+      end
+    end
+  end
+  object ButtonOk: TButton
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Side = asrBottom
+    Left = 722
+    Height = 25
+    Top = 536
+    Width = 79
+    Anchors = [akRight, akBottom]
+    Caption = 'Ok'
+    Default = True
+    OnClick = ButtonOkClick
+    TabOrder = 1
+  end
+  object ButtonCancel: TButton
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Side = asrBottom
+    Left = 611
+    Height = 25
+    Top = 536
+    Width = 79
+    Anchors = [akRight, akBottom]
+    Caption = 'Abbrechen'
+    OnClick = ButtonCancelClick
+    TabOrder = 2
+  end
+  object Panel2: TPanel
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Side = asrBottom
+    Left = 8
+    Height = 2
+    Top = 526
+    Width = 793
+    Anchors = [akLeft, akRight, akBottom]
+    BevelOuter = bvLowered
+    BorderStyle = bsSingle
+    TabOrder = 3
+  end
+end

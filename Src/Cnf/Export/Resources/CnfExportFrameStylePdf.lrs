@@ -1,0 +1,16 @@
+LazarusResources.Add('ExportPdfStyle','HTML',[
+  '<style type="text/css">'#13#10'code{'#13#10'  font-size:90%;'#13#10'  font: '
+  +'Courier 90%;'#13#10'  font-family: Courier, "Lucida Console", monospace;'#13
+  +#10'  color: #A00;'#13#10'}'#13#10'pre{'#13#10'  background: #f4f4f4;'#13#10
+  +'  border: 1px solid #ddd;'#13#10'  border-left: medium solid #33f36d;'#13#10
+  +'  color: #555;'#13#10'  overflow: auto;'#13#10'  padding: 2%;'#13#10'  disp'
+  +'lay: block;'#13#10'  font-size: 90%;'#13#10'  font: Courier 90%;'#13#10'  f'
+  +'ont-family: Courier, "Lucida Console", monospace;'#13#10'}'#13#10'pre code{'
+  +#13#10'  font-size: 90%;'#13#10'  font: Courier 90%;'#13#10'  font-family: C'
+  +'ourier, "Lucida Console", monospace;'#13#10'  color: #555;'#13#10'  overflo'
+  +'w: auto;'#13#10'}'#13#10'img{'#13#10'  width: 50.0%;'#13#10'  align: middle'
+  +';'#13#10'}'#13#10#13#10'p{'#13#10'  text-align: justify;'#13#10'}'#13#10#13
+  +#10'html, body{'#13#10'  background: #f4a454;'#13#10'  font-size: 100%;'#13
+  +#10'  font-family:  "Gill Sans Extrabold", Helvetica, sans-serif;'#13#10'}'
+  +#13#10'</style>'#13#10
+]);

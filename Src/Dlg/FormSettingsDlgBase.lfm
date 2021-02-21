@@ -1,0 +1,8 @@
+object FormSettingsDlgBase: TFormSettingsDlgBase
+  Left = 551
+  Height = 240
+  Top = 301
+  Width = 320
+  Caption = 'FormSettingsDlgBase'
+  LCLVersion = '2.0.4.0'
+end

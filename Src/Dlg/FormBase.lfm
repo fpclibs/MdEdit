@@ -1,0 +1,7 @@
+object FormBase: TFormBase
+  Left = 678
+  Height = 240
+  Top = 115
+  Width = 320
+  LCLVersion = '2.0.8.0'
+end

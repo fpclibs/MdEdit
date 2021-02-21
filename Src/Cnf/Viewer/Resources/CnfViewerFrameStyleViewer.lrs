@@ -1,0 +1,36 @@
+LazarusResources.Add('ViewerFootDarkMode','HTML',[
+  '<br /><br /><br /></body></html>'#13#10
+]);
+LazarusResources.Add('ViewerFootLightMode','HTML',[
+  '<br /><br /><br /></body></html>'#13#10
+]);
+LazarusResources.Add('ViewerHeadDarkMode','HTML',[
+  '<html><head><style type="text/css">'#10'code{'#10'  font-size:90%;'#10'  fon'
+  +'t: Courier 90%;'#10'  font-family: Courier, "Lucida Console", monospace;'#10
+  +'  color: #FFFF00;'#10'}'#10'pre{'#10'  background: #080808;'#10'  border: 1'
+  +'px solid #111111;'#10'  border-left: medium solid #880000;'#10'  color: #55'
+  +'5555;'#10'  overflow: auto;'#10'  padding: 2%;'#10'  display: block;'#10'  '
+  +'font-size: 90%;'#10'  font: Courier 90%;'#10'  font-family: Courier, "Lucid'
+  +'a Console", monospace;'#10'}'#10'pre code{'#10'  font-size: 90%;'#10'  font'
+  +': Courier 90%;'#10'  font-family: Courier, "Lucida Console", monospace;'#10
+  +'  color: #AAAAAA;'#10'  background: #080808;'#10'  overflow: auto;'#10'}'#10
+  +'img{'#10'  width: 50.0%;'#10'  align: middle;'#10'}'#10'html, body, p {'#10
+  +'  font-size: 110%;'#10'  font-family:  "Gill Sans Extrabold", Helvetica, sa'
+  +'ns-serif;'#10'  color: #BBBBBB;'#10'  background: #121212;'#10'}'#10'h1, h2'
+  +', h3, h4 {'#10'  color: #4060EE;'#10'}'#10'ol,li {'#10'    vertical-align: '
+  +'middle;'#10'}'#10#10'</style></head>'#10'<body marginwidth="0">'#10
+]);
+LazarusResources.Add('ViewerHeadLightMode','HTML',[
+  '<html><head><style type="text/css">'#10'code{'#10'  font-size:90%;'#10'  fon'
+  +'t: Courier 90%;'#10'  font-family: Courier, "Lucida Console", monospace;'#10
+  +'  color: #A00;'#10'}'#10'pre{'#10'  background: #f4f4f4;'#10'  border: 1px '
+  +'solid #ddd;'#10'  border-left: medium solid #f36d33;'#10'  color: #555;'#10
+  +'  overflow: auto;'#10'  padding: 2%;'#10'  display: block;'#10'  font-size:'
+  +' 90%;'#10'  font: Courier 90%;'#10'  font-family: Courier, "Lucida Console"'
+  +', monospace;'#10'}'#10'pre code{'#10'  font-size: 90%;'#10'  font: Courier '
+  +'90%;'#10'  font-family: Courier, "Lucida Console", monospace;'#10'  color: '
+  +'#555;'#10'  overflow: auto;'#10'}'#10'img{'#10'  width: 50.0%;'#10'  align:'
+  +' middle;'#10'}'#10'html, body, p {'#10'  font-size: 110%;'#10'  font-family'
+  +':  "Gill Sans Extrabold", Helvetica, sans-serif;'#10'}'#10'</style></head>'
+  +#10'<body marginwidth="0">'#10
+]);

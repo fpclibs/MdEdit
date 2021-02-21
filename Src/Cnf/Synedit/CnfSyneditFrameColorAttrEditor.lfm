@@ -1,0 +1,800 @@
+object CnfSyneditFrameColorAttrEditor: TCnfSyneditFrameColorAttrEditor
+  AnchorSideRight.Side = asrBottom
+  AnchorSideBottom.Side = asrBottom
+  Left = 0
+  Height = 210
+  Top = 0
+  Width = 628
+  HorzScrollBar.Page = 1
+  VertScrollBar.Page = 1
+  Anchors = [akTop, akLeft, akRight, akBottom]
+  ClientHeight = 210
+  ClientWidth = 628
+  TabOrder = 0
+  DesignLeft = 1972
+  DesignTop = 291
+  object ForeGroundLabel: TLabel
+    AnchorSideTop.Side = asrCenter
+    Left = 6
+    Height = 15
+    Top = 24
+    Width = 198
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 6
+    Caption = 'Foreground'
+    Color = clWhite
+    ParentColor = False
+    Transparent = False
+    Visible = False
+  end
+  object ColumnPosBevel: TPanel
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Side = asrBottom
+    AnchorSideBottom.Side = asrBottom
+    Left = 205
+    Height = 1
+    Top = 0
+    Width = 50
+    Anchors = [akTop, akLeft, akRight]
+    AutoSize = True
+    BorderSpacing.Left = 6
+    BevelOuter = bvNone
+    Color = clWhite
+    Constraints.MinHeight = 1
+    Constraints.MinWidth = 50
+    ParentColor = False
+    TabOrder = 0
+  end
+  object GroupBoxColorAttributs: TGroupBox
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 2
+    Height = 200
+    Top = 10
+    Width = 624
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Left = 2
+    BorderSpacing.Top = 10
+    BorderSpacing.Right = 2
+    Caption = 'Color Attributs'
+    ClientHeight = 180
+    ClientWidth = 620
+    TabOrder = 1
+    object CheckBoxForeGroundUseDefault: TCheckBox
+      AnchorSideTop.Control = ForegroundColorBox
+      AnchorSideTop.Side = asrCenter
+      Left = 6
+      Height = 19
+      Top = 5
+      Width = 82
+      BorderSpacing.Left = 6
+      Caption = 'Foreground'
+      Color = clNone
+      OnChange = GeneralCheckBoxOnChange
+      ParentColor = False
+      TabOrder = 0
+    end
+    object ForegroundColorBox: TColorBox
+      AnchorSideRight.Side = asrBottom
+      Left = 205
+      Height = 22
+      Top = 3
+      Width = 80
+      DefaultColorColor = clDefault
+      Style = [cbStandardColors, cbExtendedColors, cbSystemColors, cbIncludeDefault, cbCustomColor, cbPrettyNames, cbCustomColors]
+      OnGetColors = ForegroundColorBoxGetColors
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Top = 3
+      Constraints.MaxWidth = 200
+      Constraints.MinWidth = 80
+      ItemHeight = 16
+      OnChange = ForegroundColorBoxChange
+      TabOrder = 1
+    end
+    object BackGroundColorBox: TColorBox
+      AnchorSideTop.Control = ForegroundColorBox
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Side = asrBottom
+      Left = 205
+      Height = 22
+      Top = 28
+      Width = 80
+      DefaultColorColor = clDefault
+      Style = [cbStandardColors, cbExtendedColors, cbSystemColors, cbIncludeDefault, cbCustomColor, cbPrettyNames, cbCustomColors]
+      OnGetColors = ForegroundColorBoxGetColors
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Top = 3
+      Constraints.MaxWidth = 200
+      Constraints.MinWidth = 80
+      ItemHeight = 16
+      OnChange = ForegroundColorBoxChange
+      TabOrder = 2
+    end
+    object FrameColorBox: TColorBox
+      AnchorSideTop.Control = BackGroundColorBox
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Side = asrBottom
+      Left = 205
+      Height = 22
+      Top = 53
+      Width = 80
+      DefaultColorColor = clDefault
+      Style = [cbStandardColors, cbExtendedColors, cbSystemColors, cbIncludeDefault, cbCustomColor, cbPrettyNames, cbCustomColors]
+      OnGetColors = ForegroundColorBoxGetColors
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Top = 3
+      Constraints.MaxWidth = 200
+      Constraints.MinWidth = 80
+      ItemHeight = 16
+      OnChange = ForegroundColorBoxChange
+      TabOrder = 3
+    end
+    object CheckBoxFrameColorUseDefault: TCheckBox
+      AnchorSideTop.Control = FrameColorBox
+      AnchorSideTop.Side = asrCenter
+      AnchorSideRight.Side = asrBottom
+      Left = 6
+      Height = 19
+      Top = 55
+      Width = 74
+      BorderSpacing.Left = 6
+      Caption = 'Text-mark'
+      Color = clNone
+      OnChange = GeneralCheckBoxOnChange
+      ParentColor = False
+      TabOrder = 4
+    end
+    object pnlUnderline: TPanel
+      AnchorSideTop.Control = MarkupFoldColorBox
+      AnchorSideTop.Side = asrBottom
+      Left = 6
+      Height = 40
+      Top = 127
+      Width = 134
+      AutoSize = True
+      BorderSpacing.Left = 6
+      BorderSpacing.Top = 3
+      BorderSpacing.Bottom = 3
+      BevelColor = clNone
+      BevelOuter = bvNone
+      ClientHeight = 40
+      ClientWidth = 134
+      Color = clForm
+      ParentColor = False
+      TabOrder = 5
+      object TextUnderlineRadioPanel: TPanel
+        AnchorSideLeft.Control = CheckBoxTextUnderline
+        AnchorSideTop.Control = CheckBoxTextUnderline
+        AnchorSideTop.Side = asrBottom
+        AnchorSideRight.Side = asrBottom
+        Left = 0
+        Height = 21
+        Top = 19
+        Width = 134
+        AutoSize = True
+        BevelInner = bvLowered
+        BevelOuter = bvNone
+        ClientHeight = 21
+        ClientWidth = 134
+        TabOrder = 0
+        object RadioTextUnderlineOn: TRadioButton
+          Tag = 3
+          AnchorSideLeft.Control = TextUnderlineRadioPanel
+          AnchorSideTop.Control = TextUnderlineRadioPanel
+          AnchorSideRight.Control = RadioTextUnderlineOff
+          Left = 4
+          Height = 19
+          Top = 1
+          Width = 36
+          BorderSpacing.Left = 3
+          BorderSpacing.Right = 3
+          Caption = 'On'
+          Checked = True
+          OnChange = TextStyleRadioOnChange
+          TabOrder = 0
+          TabStop = True
+        end
+        object RadioTextUnderlineOff: TRadioButton
+          Tag = 3
+          AnchorSideLeft.Control = RadioTextUnderlineOn
+          AnchorSideLeft.Side = asrBottom
+          AnchorSideTop.Control = RadioTextUnderlineOn
+          AnchorSideRight.Control = RadioTextUnderlineInvert
+          Left = 43
+          Height = 19
+          Top = 1
+          Width = 37
+          BorderSpacing.Left = 3
+          BorderSpacing.Right = 3
+          Caption = 'Off'
+          TabOrder = 1
+        end
+        object RadioTextUnderlineInvert: TRadioButton
+          Tag = 3
+          AnchorSideLeft.Control = RadioTextUnderlineOff
+          AnchorSideLeft.Side = asrBottom
+          AnchorSideTop.Control = TextUnderlineRadioPanel
+          AnchorSideRight.Control = TextUnderlineRadioPanel
+          AnchorSideRight.Side = asrBottom
+          Left = 83
+          Height = 19
+          Top = 1
+          Width = 50
+          BorderSpacing.Left = 3
+          Caption = 'Invert'
+          TabOrder = 2
+        end
+      end
+      object CheckBoxTextUnderline: TCheckBox
+        AnchorSideLeft.Control = pnlUnderline
+        AnchorSideTop.Control = pnlUnderline
+        Left = 0
+        Height = 19
+        Top = 0
+        Width = 71
+        Caption = 'Underline'
+        OnChange = GeneralCheckBoxOnChange
+        TabOrder = 1
+      end
+    end
+    object pnlBold: TPanel
+      AnchorSideLeft.Control = pnlUnderline
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = pnlUnderline
+      Left = 146
+      Height = 40
+      Top = 127
+      Width = 134
+      AutoSize = True
+      BorderSpacing.Left = 6
+      BevelColor = clNone
+      BevelOuter = bvNone
+      ClientHeight = 40
+      ClientWidth = 134
+      Color = clForm
+      ParentColor = False
+      TabOrder = 6
+      object TextBoldRadioPanel: TPanel
+        AnchorSideLeft.Control = CheckBoxTextBold
+        AnchorSideTop.Control = CheckBoxTextBold
+        AnchorSideTop.Side = asrBottom
+        AnchorSideRight.Side = asrBottom
+        Left = 0
+        Height = 21
+        Top = 19
+        Width = 134
+        AutoSize = True
+        BevelInner = bvLowered
+        BevelOuter = bvNone
+        ClientHeight = 21
+        ClientWidth = 134
+        TabOrder = 0
+        object RadioTextBoldInvert: TRadioButton
+          Tag = 2
+          AnchorSideLeft.Control = RadioTextBoldOff
+          AnchorSideLeft.Side = asrBottom
+          AnchorSideTop.Control = TextBoldRadioPanel
+          AnchorSideRight.Control = TextBoldRadioPanel
+          AnchorSideRight.Side = asrBottom
+          Left = 83
+          Height = 19
+          Top = 1
+          Width = 50
+          BorderSpacing.Left = 3
+          Caption = 'Invert'
+          TabOrder = 2
+        end
+        object RadioTextBoldOn: TRadioButton
+          Tag = 2
+          AnchorSideLeft.Control = TextBoldRadioPanel
+          AnchorSideTop.Control = TextBoldRadioPanel
+          AnchorSideRight.Control = RadioTextBoldOff
+          Left = 4
+          Height = 19
+          Top = 1
+          Width = 36
+          BorderSpacing.Left = 3
+          BorderSpacing.Right = 3
+          Caption = 'On'
+          Checked = True
+          OnChange = TextStyleRadioOnChange
+          TabOrder = 0
+          TabStop = True
+        end
+        object RadioTextBoldOff: TRadioButton
+          Tag = 2
+          AnchorSideLeft.Control = RadioTextBoldOn
+          AnchorSideLeft.Side = asrBottom
+          AnchorSideTop.Control = TextBoldRadioPanel
+          AnchorSideRight.Control = RadioTextBoldInvert
+          Left = 43
+          Height = 19
+          Top = 1
+          Width = 37
+          BorderSpacing.Left = 3
+          BorderSpacing.Right = 3
+          Caption = 'Off'
+          TabOrder = 1
+        end
+      end
+      object CheckBoxTextBold: TCheckBox
+        AnchorSideLeft.Control = pnlBold
+        AnchorSideTop.Control = pnlBold
+        Left = 0
+        Height = 19
+        Top = 0
+        Width = 44
+        Caption = 'Bold'
+        OnChange = GeneralCheckBoxOnChange
+        TabOrder = 1
+      end
+    end
+    object pnlItalic: TPanel
+      AnchorSideLeft.Control = pnlBold
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = pnlUnderline
+      Left = 286
+      Height = 40
+      Top = 127
+      Width = 134
+      AutoSize = True
+      BorderSpacing.Left = 6
+      BevelColor = clNone
+      BevelOuter = bvNone
+      ClientHeight = 40
+      ClientWidth = 134
+      Color = clForm
+      ParentColor = False
+      TabOrder = 7
+      object TextItalicRadioPanel: TPanel
+        AnchorSideLeft.Control = CheckBoxTextItalic
+        AnchorSideTop.Control = CheckBoxTextItalic
+        AnchorSideTop.Side = asrBottom
+        AnchorSideRight.Side = asrBottom
+        Left = 0
+        Height = 21
+        Top = 19
+        Width = 134
+        AutoSize = True
+        BevelInner = bvLowered
+        BevelOuter = bvNone
+        ClientHeight = 21
+        ClientWidth = 134
+        TabOrder = 0
+        object RadioTextItalicInvert: TRadioButton
+          Tag = 2
+          AnchorSideLeft.Control = RadioTextItalicOff
+          AnchorSideLeft.Side = asrBottom
+          AnchorSideTop.Control = TextItalicRadioPanel
+          AnchorSideRight.Control = TextItalicRadioPanel
+          AnchorSideRight.Side = asrBottom
+          Left = 83
+          Height = 19
+          Top = 1
+          Width = 50
+          BorderSpacing.Left = 3
+          Caption = 'Invert'
+          TabOrder = 2
+        end
+        object RadioTextItalicOn: TRadioButton
+          Tag = 2
+          AnchorSideLeft.Control = TextItalicRadioPanel
+          AnchorSideTop.Control = TextItalicRadioPanel
+          AnchorSideRight.Control = RadioTextItalicOff
+          Left = 4
+          Height = 19
+          Top = 1
+          Width = 36
+          BorderSpacing.Left = 3
+          BorderSpacing.Right = 3
+          Caption = 'On'
+          Checked = True
+          OnChange = TextStyleRadioOnChange
+          TabOrder = 0
+          TabStop = True
+        end
+        object RadioTextItalicOff: TRadioButton
+          Tag = 2
+          AnchorSideLeft.Control = RadioTextItalicOn
+          AnchorSideLeft.Side = asrBottom
+          AnchorSideTop.Control = TextItalicRadioPanel
+          AnchorSideRight.Control = RadioTextItalicInvert
+          Left = 43
+          Height = 19
+          Top = 1
+          Width = 37
+          BorderSpacing.Left = 3
+          BorderSpacing.Right = 3
+          Caption = 'Off'
+          TabOrder = 1
+        end
+      end
+      object CheckBoxTextItalic: TCheckBox
+        AnchorSideLeft.Control = pnlItalic
+        AnchorSideTop.Control = pnlItalic
+        Left = 0
+        Height = 19
+        Top = 0
+        Width = 45
+        Caption = 'Italic'
+        OnChange = GeneralCheckBoxOnChange
+        TabOrder = 1
+      end
+    end
+    object FrameStyleBox: TComboBox
+      AnchorSideLeft.Control = ForegroundColorBox
+      AnchorSideTop.Control = FrameEdgesBox
+      AnchorSideRight.Control = ForegroundColorBox
+      AnchorSideRight.Side = asrBottom
+      Left = 205
+      Height = 21
+      Top = 78
+      Width = 80
+      Anchors = [akTop, akLeft, akRight]
+      ItemHeight = 15
+      ItemIndex = 0
+      Items.Strings = (
+        'slsSolid'
+        'slsDashed'
+        'slsDotted'
+        'slsWaved'
+      )
+      OnChange = ForegroundColorBoxChange
+      OnDrawItem = FrameEdgesBoxDrawItem
+      Style = csOwnerDrawFixed
+      TabOrder = 8
+      Text = 'slsSolid'
+    end
+    object FrameEdgesBox: TComboBox
+      AnchorSideLeft.Control = FrameStyleBox
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = FrameColorBox
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = ForeAlphaSpin
+      AnchorSideRight.Side = asrBottom
+      Left = 295
+      Height = 21
+      Top = 78
+      Width = 139
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 10
+      BorderSpacing.Top = 3
+      ItemHeight = 15
+      ItemIndex = 0
+      Items.Strings = (
+        'Around'
+        'Bottom'
+        'Left'
+      )
+      OnChange = ForegroundColorBoxChange
+      OnDrawItem = FrameEdgesBoxDrawItem
+      Style = csOwnerDrawFixed
+      TabOrder = 9
+      Text = 'Around'
+    end
+    object LabelForeAlpha: TLabel
+      AnchorSideLeft.Control = ForegroundColorBox
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = ForegroundColorBox
+      AnchorSideTop.Side = asrCenter
+      Left = 295
+      Height = 15
+      Top = 7
+      Width = 68
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 10
+      Caption = 'Alpha'
+      ParentColor = False
+    end
+    object LabelBackAlpha: TLabel
+      AnchorSideLeft.Control = BackGroundColorBox
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = BackGroundColorBox
+      AnchorSideTop.Side = asrCenter
+      Left = 295
+      Height = 15
+      Top = 32
+      Width = 68
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 10
+      Caption = 'Alpha'
+      ParentColor = False
+    end
+    object LabelFrameAlpha: TLabel
+      AnchorSideLeft.Control = FrameColorBox
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = FrameColorBox
+      AnchorSideTop.Side = asrCenter
+      Left = 295
+      Height = 15
+      Top = 57
+      Width = 68
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 10
+      Caption = 'Alpha'
+      ParentColor = False
+    end
+    object ForeAlphaSpin: TSpinEdit
+      AnchorSideLeft.Control = LabelForeAlpha
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = LabelForeAlpha
+      AnchorSideTop.Side = asrCenter
+      Left = 369
+      Height = 23
+      Top = 3
+      Width = 65
+      BorderSpacing.Left = 6
+      Constraints.MinWidth = 65
+      MaxValue = 256
+      MinValue = 1
+      OnChange = ForeAlphaSpinChange
+      OnEditingDone = ForeAlphaSpinChange
+      OnEnter = ForeAlphaSpinEnter
+      OnExit = ForeAlphaSpinChange
+      OnResize = ForeAlphaSpinChange
+      TabOrder = 10
+      Value = 256
+    end
+    object BackAlphaSpin: TSpinEdit
+      AnchorSideLeft.Control = LabelBackAlpha
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = LabelBackAlpha
+      AnchorSideTop.Side = asrCenter
+      Left = 369
+      Height = 23
+      Top = 28
+      Width = 65
+      BorderSpacing.Left = 6
+      Constraints.MinWidth = 65
+      MaxValue = 256
+      MinValue = 1
+      OnChange = ForeAlphaSpinChange
+      OnEditingDone = ForeAlphaSpinChange
+      OnEnter = ForeAlphaSpinEnter
+      OnExit = ForeAlphaSpinChange
+      OnResize = ForeAlphaSpinChange
+      TabOrder = 11
+      Value = 256
+    end
+    object FrameAlphaSpin: TSpinEdit
+      AnchorSideLeft.Control = LabelFrameAlpha
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = LabelFrameAlpha
+      AnchorSideTop.Side = asrCenter
+      Left = 369
+      Height = 23
+      Top = 53
+      Width = 65
+      BorderSpacing.Left = 6
+      Constraints.MinWidth = 65
+      MaxValue = 256
+      MinValue = 1
+      OnChange = ForeAlphaSpinChange
+      OnEditingDone = ForeAlphaSpinChange
+      OnEnter = ForeAlphaSpinEnter
+      OnExit = ForeAlphaSpinChange
+      OnResize = ForeAlphaSpinChange
+      TabOrder = 12
+      Value = 256
+    end
+    object LabelForePrior: TLabel
+      AnchorSideLeft.Control = ForeAlphaSpin
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = ForegroundColorBox
+      AnchorSideTop.Side = asrCenter
+      Left = 444
+      Height = 15
+      Top = 7
+      Width = 74
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 10
+      Caption = 'Priority'
+      ParentColor = False
+    end
+    object LabelBackPrior: TLabel
+      AnchorSideLeft.Control = BackAlphaSpin
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = BackGroundColorBox
+      AnchorSideTop.Side = asrCenter
+      Left = 444
+      Height = 15
+      Top = 32
+      Width = 74
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 10
+      Caption = 'Priority'
+      ParentColor = False
+    end
+    object LabelFramePrior: TLabel
+      AnchorSideLeft.Control = FrameAlphaSpin
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = FrameColorBox
+      AnchorSideTop.Side = asrCenter
+      Left = 444
+      Height = 15
+      Top = 57
+      Width = 74
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 10
+      Caption = 'Priority'
+      ParentColor = False
+    end
+    object ForePriorSpin: TSpinEdit
+      AnchorSideLeft.Control = LabelForePrior
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = LabelForePrior
+      AnchorSideTop.Side = asrCenter
+      Left = 524
+      Height = 23
+      Top = 3
+      Width = 69
+      BorderSpacing.Left = 6
+      Constraints.MinWidth = 65
+      MaxValue = 9999
+      OnChange = ForeAlphaSpinChange
+      OnEditingDone = ForeAlphaSpinChange
+      OnExit = ForeAlphaSpinChange
+      TabOrder = 13
+      Value = 1
+    end
+    object BackPriorSpin: TSpinEdit
+      AnchorSideLeft.Control = LabelBackPrior
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = LabelBackPrior
+      AnchorSideTop.Side = asrCenter
+      Left = 524
+      Height = 23
+      Top = 28
+      Width = 69
+      BorderSpacing.Left = 6
+      Constraints.MinWidth = 65
+      MaxValue = 9999
+      OnChange = ForeAlphaSpinChange
+      OnEditingDone = ForeAlphaSpinChange
+      OnExit = ForeAlphaSpinChange
+      TabOrder = 14
+      Value = 1
+    end
+    object FramePriorSpin: TSpinEdit
+      AnchorSideLeft.Control = LabelFramePrior
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = LabelFrameAlpha
+      AnchorSideTop.Side = asrCenter
+      Left = 524
+      Height = 23
+      Top = 53
+      Width = 69
+      BorderSpacing.Left = 6
+      Constraints.MinWidth = 65
+      MaxValue = 9999
+      OnChange = ForeAlphaSpinChange
+      OnEditingDone = ForeAlphaSpinChange
+      OnExit = ForeAlphaSpinChange
+      TabOrder = 15
+      Value = 1
+    end
+    object CheckBoxMarkupFoldColorUseDefault: TCheckBox
+      AnchorSideTop.Control = MarkupFoldColorBox
+      AnchorSideTop.Side = asrCenter
+      AnchorSideRight.Side = asrBottom
+      Left = 6
+      Height = 19
+      Top = 104
+      Width = 88
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 6
+      Caption = 'Vertical-mark'
+      Color = clNone
+      OnChange = GeneralCheckBoxOnChange
+      ParentColor = False
+      TabOrder = 16
+    end
+    object MarkupFoldColorBox: TColorBox
+      AnchorSideTop.Control = FrameEdgesBox
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Side = asrBottom
+      Left = 205
+      Height = 22
+      Top = 102
+      Width = 80
+      DefaultColorColor = clWhite
+      Style = [cbStandardColors, cbExtendedColors, cbSystemColors, cbIncludeDefault, cbCustomColor, cbPrettyNames, cbCustomColors]
+      OnGetColors = ForegroundColorBoxGetColors
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Top = 3
+      Color = clWhite
+      Constraints.MaxWidth = 200
+      Constraints.MinWidth = 80
+      ItemHeight = 16
+      OnChange = ForegroundColorBoxChange
+      TabOrder = 17
+    end
+    object LabelMarkupFoldAlpha: TLabel
+      AnchorSideLeft.Control = MarkupFoldColorBox
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = MarkupFoldColorBox
+      AnchorSideTop.Side = asrCenter
+      Left = 295
+      Height = 15
+      Top = 106
+      Width = 68
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 10
+      Caption = 'Alpha'
+      ParentColor = False
+    end
+    object MarkupFoldAlphaSpin: TSpinEdit
+      AnchorSideLeft.Control = LabelMarkupFoldAlpha
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = MarkupFoldColorBox
+      AnchorSideTop.Side = asrCenter
+      Left = 369
+      Height = 23
+      Top = 102
+      Width = 65
+      BorderSpacing.Left = 6
+      Constraints.MinWidth = 65
+      MaxValue = 256
+      MinValue = 1
+      OnChange = ForeAlphaSpinChange
+      OnEditingDone = ForeAlphaSpinChange
+      OnEnter = ForeAlphaSpinEnter
+      OnExit = ForeAlphaSpinChange
+      OnResize = ForeAlphaSpinChange
+      TabOrder = 18
+      Value = 256
+    end
+    object MarkupFoldStyleBox: TComboBox
+      AnchorSideLeft.Control = MarkupFoldAlphaSpin
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = CheckBoxMarkupFoldColorUseDefault
+      Left = 440
+      Height = 21
+      Top = 104
+      Width = 153
+      BorderSpacing.Left = 6
+      Color = clWhite
+      ItemHeight = 15
+      ItemIndex = 0
+      Items.Strings = (
+        'slsSolid'
+        'slsDashed'
+        'slsDotted'
+        'slsWaved'
+      )
+      Style = csOwnerDrawFixed
+      TabOrder = 19
+      Text = 'slsSolid'
+    end
+    object CheckBoxBackGroundUseDefault: TCheckBox
+      AnchorSideTop.Side = asrCenter
+      AnchorSideRight.Side = asrBottom
+      Left = 6
+      Height = 19
+      Top = 37
+      Width = 84
+      BorderSpacing.Left = 6
+      Caption = 'Background'
+      Color = clDefault
+      OnChange = GeneralCheckBoxOnChange
+      ParentColor = False
+      TabOrder = 20
+    end
+    object BackGroundLabel: TLabel
+      AnchorSideTop.Side = asrCenter
+      Left = 8
+      Height = 1
+      Top = 28
+      Width = 1
+      BorderSpacing.Left = 6
+      Color = clForm
+      ParentColor = False
+      Transparent = False
+      Visible = False
+    end
+  end
+end

@@ -1,0 +1,426 @@
+inherited CnfSyneditFrameGeneral: TCnfSyneditFrameGeneral
+  AnchorSideRight.Side = asrBottom
+  Height = 442
+  Width = 560
+  HorzScrollBar.Increment = 1
+  HorzScrollBar.Page = 1
+  HorzScrollBar.Smooth = True
+  HorzScrollBar.Tracking = True
+  VertScrollBar.Page = 1
+  Align = alLeft
+  Anchors = [akTop, akLeft, akRight, akBottom]
+  AutoScroll = True
+  BorderSpacing.Right = 10
+  ClientHeight = 442
+  ClientWidth = 560
+  Color = clForm
+  ParentColor = False
+  Scaled = False
+  DesignLeft = 675
+  DesignTop = 174
+  object PanelBG: TPanel[0]
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 0
+    Height = 437
+    Top = 5
+    Width = 550
+    Align = alLeft
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Top = 5
+    BorderSpacing.Right = 10
+    BevelColor = clForm
+    BevelOuter = bvNone
+    ClientHeight = 437
+    ClientWidth = 550
+    TabOrder = 0
+    object LabelUndoLimit: TLabel
+      AnchorSideLeft.Control = ComboBoxUndoLimit
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = ComboBoxUndoLimit
+      AnchorSideTop.Side = asrCenter
+      Left = 382
+      Height = 15
+      Top = 31
+      Width = 56
+      BorderSpacing.Around = 6
+      Caption = 'Undo limit'
+      ParentColor = False
+    end
+    object ComboBoxUndoLimit: TComboBox
+      AnchorSideLeft.Control = CenterLabel
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = DividerBevelUndo
+      AnchorSideTop.Side = asrBottom
+      Left = 276
+      Height = 23
+      Top = 27
+      Width = 100
+      BorderSpacing.Top = 6
+      ItemHeight = 15
+      Items.Strings = (
+        '32767'
+        '4096'
+        '512'
+      )
+      TabOrder = 0
+    end
+    object CheckBoxGroupUndo: TCheckBox
+      AnchorSideTop.Control = CheckBoxUndoAfterSave
+      AnchorSideTop.Side = asrBottom
+      Left = 6
+      Height = 19
+      Top = 46
+      Width = 85
+      BorderSpacing.Left = 6
+      Caption = 'Group Undo'
+      OnChange = CheckBoxGroupUndoChange
+      TabOrder = 1
+    end
+    object CheckBoxUndoAfterSave: TCheckBox
+      AnchorSideTop.Control = DividerBevelUndo
+      AnchorSideTop.Side = asrBottom
+      Left = 6
+      Height = 19
+      Top = 27
+      Width = 102
+      BorderSpacing.Left = 6
+      BorderSpacing.Top = 6
+      Caption = 'Undo after save'
+      TabOrder = 2
+      Visible = False
+    end
+    object CheckBoxScrollPastEndFile: TCheckBox
+      AnchorSideTop.Control = DividerBevelScroll
+      AnchorSideTop.Side = asrBottom
+      Left = 6
+      Height = 19
+      Top = 92
+      Width = 130
+      BorderSpacing.Left = 6
+      BorderSpacing.Top = 6
+      Caption = 'Scroll past end of file'
+      OnChange = CheckBoxScrollPastEndFileChange
+      TabOrder = 3
+    end
+    object CheckBoxScrollPastEndLine: TCheckBox
+      AnchorSideTop.Control = CheckBoxAlwaysVisibleCursor
+      AnchorSideTop.Side = asrBottom
+      Left = 6
+      Height = 19
+      Top = 233
+      Width = 210
+      BorderSpacing.Left = 6
+      Caption = 'Allow caret to move past end of line'
+      OnChange = CheckBoxScrollPastEndLineChange
+      TabOrder = 4
+    end
+    object CheckBoxScrollByOneLess: TCheckBox
+      AnchorSideLeft.Control = ComboBoxUndoLimit
+      AnchorSideTop.Control = DividerBevelScroll
+      AnchorSideTop.Side = asrBottom
+      Left = 276
+      Height = 19
+      Top = 92
+      Width = 110
+      BorderSpacing.Top = 6
+      Caption = 'Scroll by one less'
+      OnChange = CheckBoxScrollByOneLessChange
+      TabOrder = 5
+    end
+    object CheckBoxHalfPageScroll: TCheckBox
+      AnchorSideTop.Control = CheckBoxScrollPastEndFile
+      AnchorSideTop.Side = asrBottom
+      Left = 6
+      Height = 19
+      Top = 111
+      Width = 102
+      BorderSpacing.Left = 6
+      Caption = 'Half page scroll'
+      OnChange = CheckBoxHalfPageScrollChange
+      TabOrder = 6
+    end
+    object CheckBoxKeepCursorX: TCheckBox
+      AnchorSideTop.Control = DividerBevelCaret
+      AnchorSideTop.Side = asrBottom
+      Left = 6
+      Height = 19
+      Top = 157
+      Width = 274
+      BorderSpacing.Left = 6
+      BorderSpacing.Top = 6
+      Caption = 'Keep caret X position when navigating up/down'
+      OnChange = CheckBoxKeepCursorXChange
+      TabOrder = 7
+    end
+    object CheckBoxPersistentCursor: TCheckBox
+      AnchorSideTop.Control = CheckBoxKeepCursorX
+      AnchorSideTop.Side = asrBottom
+      Left = 6
+      Height = 19
+      Top = 176
+      Width = 189
+      BorderSpacing.Left = 6
+      Caption = 'Visible caret in unfocused editor'
+      OnChange = CheckBoxPersistentCursorChange
+      TabOrder = 8
+    end
+    object CheckBoxAlwaysVisibleCursor: TCheckBox
+      AnchorSideTop.Control = CheckBoxPersistentCursorNoBlink
+      AnchorSideTop.Side = asrBottom
+      Left = 6
+      Height = 19
+      Top = 214
+      Width = 236
+      BorderSpacing.Left = 6
+      Caption = 'Always keep caret in visible area of editor'
+      OnChange = CheckBoxAlwaysVisibleCursorChange
+      TabOrder = 9
+    end
+    object CheckBoxCursorSkipsSelection: TCheckBox
+      AnchorSideLeft.Control = ComboBoxUndoLimit
+      AnchorSideTop.Control = CheckBoxAlwaysVisibleCursor
+      Left = 276
+      Height = 19
+      Top = 214
+      Width = 127
+      Caption = 'Caret skips selection'
+      OnChange = CheckBoxCursorSkipsSelectionChange
+      TabOrder = 10
+    end
+    object CheckBoxHomeKeyJumpsToNearestStart: TCheckBox
+      AnchorSideLeft.Control = CheckBoxCursorSkipsSelection
+      AnchorSideTop.Control = CheckBoxKeepCursorX
+      Left = 276
+      Height = 19
+      Top = 157
+      Width = 191
+      Caption = 'Home key jumps to nearest start'
+      OnChange = CheckBoxHomeKeyJumpsToNearestStartChange
+      TabOrder = 11
+    end
+    object CheckBoxEndKeyJumpsToNearestStart: TCheckBox
+      AnchorSideLeft.Control = CheckBoxHomeKeyJumpsToNearestStart
+      AnchorSideTop.Control = CheckBoxPersistentCursor
+      Left = 276
+      Height = 19
+      Top = 176
+      Width = 175
+      Caption = 'End key jumps to nearest end'
+      OnChange = CheckBoxEndKeyJumpsToNearestStartChange
+      TabOrder = 12
+    end
+    object CheckBoxPersistentBlock: TCheckBox
+      AnchorSideTop.Control = DividerBevelBlock
+      AnchorSideTop.Side = asrBottom
+      Left = 6
+      Height = 19
+      Top = 344
+      Width = 103
+      BorderSpacing.Left = 6
+      BorderSpacing.Top = 6
+      Caption = 'Persistent block'
+      OnChange = CheckBoxPersistentBlockChange
+      TabOrder = 13
+    end
+    object CheckBoxOverwriteBlock: TCheckBox
+      AnchorSideLeft.Control = ComboBoxUndoLimit
+      AnchorSideTop.Control = DividerBevelBlock
+      AnchorSideTop.Side = asrBottom
+      Left = 276
+      Height = 19
+      Top = 344
+      Width = 103
+      BorderSpacing.Top = 6
+      Caption = 'Overwrite block'
+      OnChange = CheckBoxOverwriteBlockChange
+      TabOrder = 14
+    end
+    object CheckBoxCursorSkipsTab: TCheckBox
+      AnchorSideLeft.Control = CheckBoxCursorSkipsSelection
+      AnchorSideTop.Control = CheckBoxPersistentCursorNoBlink
+      Left = 276
+      Height = 19
+      Top = 195
+      Width = 102
+      Caption = 'Caret skips tabs'
+      OnChange = CheckBoxCursorSkipsTabChange
+      TabOrder = 15
+    end
+    object CenterLabel: TLabel
+      AnchorSideLeft.Control = PanelBG
+      AnchorSideLeft.Side = asrCenter
+      AnchorSideTop.Control = PanelBG
+      Left = 275
+      Height = 1
+      Top = 0
+      Width = 1
+      ParentColor = False
+    end
+    object DividerBevelUndo: TDividerBevel
+      AnchorSideRight.Side = asrBottom
+      Left = 4
+      Height = 15
+      Top = 6
+      Width = 600
+      Caption = 'Undo / Redo'
+      AutoSize = False
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 4
+      BorderSpacing.Top = 6
+      BorderSpacing.Right = 2
+      Constraints.MinWidth = 600
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object DividerBevelScroll: TDividerBevel
+      AnchorSideTop.Control = CheckBoxGroupUndo
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Side = asrBottom
+      Left = 4
+      Height = 15
+      Top = 71
+      Width = 543
+      Caption = 'Scrolling'
+      AutoSize = False
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 4
+      BorderSpacing.Top = 6
+      BorderSpacing.Right = 1
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object DividerBevelCaret: TDividerBevel
+      AnchorSideTop.Control = CheckBoxHalfPageScroll
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Side = asrBottom
+      Left = 4
+      Height = 15
+      Top = 136
+      Width = 542
+      Caption = 'Caret (Text Cursor)'
+      AutoSize = False
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 4
+      BorderSpacing.Top = 6
+      BorderSpacing.Right = 2
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object DividerBevelBlock: TDividerBevel
+      AnchorSideTop.Control = CheckBoxMultiCaretMode
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Side = asrBottom
+      Left = 4
+      Height = 15
+      Top = 323
+      Width = 542
+      Caption = 'Selection'
+      AutoSize = False
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 4
+      BorderSpacing.Top = 6
+      BorderSpacing.Right = 2
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object CheckBoxScrollHint: TCheckBox
+      AnchorSideLeft.Control = CheckBoxScrollByOneLess
+      AnchorSideTop.Control = CheckBoxScrollByOneLess
+      AnchorSideTop.Side = asrBottom
+      Left = 276
+      Height = 19
+      Top = 111
+      Width = 104
+      Caption = 'Show scroll hint'
+      TabOrder = 16
+    end
+    object CheckBoxMultiCaretOnColumnSelection: TCheckBox
+      AnchorSideTop.Control = DividerBevelMultiCaretGroup
+      AnchorSideTop.Side = asrBottom
+      Left = 6
+      Height = 19
+      Top = 279
+      Width = 229
+      BorderSpacing.Left = 6
+      BorderSpacing.Top = 6
+      Caption = 'Enable multi-caret for column selection'
+      TabOrder = 17
+    end
+    object CheckBoxMultiCaretColumnMode: TCheckBox
+      AnchorSideLeft.Control = CheckBoxEndKeyJumpsToNearestStart
+      AnchorSideTop.Control = CheckBoxMultiCaretOnColumnSelection
+      Left = 276
+      Height = 19
+      Top = 279
+      Width = 273
+      Caption = 'Navigation keys move all carets (column-select)'
+      TabOrder = 18
+    end
+    object CheckBoxMultiCaretMode: TCheckBox
+      AnchorSideTop.Control = CheckBoxMultiCaretOnColumnSelection
+      AnchorSideTop.Side = asrBottom
+      Left = 6
+      Height = 19
+      Top = 298
+      Width = 186
+      BorderSpacing.Left = 6
+      Caption = 'Navigation keys move all carets'
+      TabOrder = 19
+    end
+    object DividerBevelMultiCaretGroup: TDividerBevel
+      AnchorSideTop.Control = CheckBoxCaretMoveClearsSelection
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Side = asrBottom
+      Left = 4
+      Height = 15
+      Top = 258
+      Width = 542
+      Caption = 'Multi-caret'
+      AutoSize = False
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 4
+      BorderSpacing.Top = 6
+      BorderSpacing.Right = 2
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object CheckBoxMultiCaretDelSkipCr: TCheckBox
+      AnchorSideLeft.Control = CheckBoxMultiCaretColumnMode
+      AnchorSideTop.Control = CheckBoxMultiCaretOnColumnSelection
+      AnchorSideTop.Side = asrBottom
+      Left = 276
+      Height = 19
+      Top = 298
+      Width = 231
+      Caption = 'Skip delete key at EOL (do not join lines)'
+      TabOrder = 20
+    end
+    object CheckBoxCaretMoveClearsSelection: TCheckBox
+      AnchorSideLeft.Control = CheckBoxCursorSkipsSelection
+      AnchorSideTop.Control = CheckBoxCursorSkipsSelection
+      AnchorSideTop.Side = asrBottom
+      Left = 276
+      Height = 19
+      Top = 233
+      Width = 239
+      Caption = 'Caret left/right clears selection (no move)'
+      OnChange = CheckBoxCaretMoveClearsSelectionChange
+      TabOrder = 21
+    end
+    object CheckBoxPersistentCursorNoBlink: TCheckBox
+      AnchorSideTop.Control = CheckBoxPersistentCursor
+      AnchorSideTop.Side = asrBottom
+      Left = 6
+      Height = 19
+      Top = 195
+      Width = 232
+      BorderSpacing.Left = 6
+      Caption = 'Caret in unfocused editor does not blink'
+      OnChange = CheckBoxPersistentCursorNoBlinkChange
+      TabOrder = 22
+    end
+  end
+end

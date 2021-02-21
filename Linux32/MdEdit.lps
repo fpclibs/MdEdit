@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="11"/>
+    <BuildModes Active="Release"/>
+    <Units Count="47">
+      <Unit0>
+        <Filename Value="MdEdit.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../Src/Dlg/FormMain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="23"/>
+        <CursorPos X="3" Y="43"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../Src/Dlg/FormAbout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormAbout"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UsageCount Value="20"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../Src/Dlg/FormBase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormBase"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UsageCount Value="20"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../Doc/ToDo.txt"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../Src/Dlg/FormPrintStatus.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormPrnStatus"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UsageCount Value="20"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../Src/Dlg/FormPreview.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormPreview"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UsageCount Value="20"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../Src/Lib/Highlighter/SynHighlighterMd.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../Src/Dlg/FormDebug.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormDebug"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UsageCount Value="20"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../Src/Lib/Highlighter/SynTokenizerMd.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="../Src/Lib/Spell/SynSpellMarkup.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="../Src/Lib/Spell/Hunspell.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="../Src/Lib/Spell/SynSpellToken.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="../Src/Lib/Highlighter/SynHighlighterTxt.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="../Src/Lib/Settings/SettingsBase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="../Src/Lib/Global/AppSettings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="../Src/Cnf/Settings/FormSettings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormSettings"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UsageCount Value="20"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="../Src/Cnf/Settings/FrameSettingsBase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameSettingsBase"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UsageCount Value="20"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="../Src/Cnf/Spell/CnfSpellFrameDictionarys.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameDictionarys"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UsageCount Value="20"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="../Src/Dlg/FrameSpellCheck.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameSpellCheck"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UsageCount Value="20"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="../Src/Lib/Highlighter/SynSpellcheckHighlighter.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="../Src/Dlg/FormSpellCheckDlg.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormSpellCheckDlg"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UsageCount Value="20"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="../Src/Dlg/FormSettingsDlgBase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormSettingsDlgBase"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UsageCount Value="20"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="../Src/Lib/Versioning/AppVersion.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="../Src/Cnf/Viewer/CnfViewerFrameStyleViewer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameStyleViewer"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="193"/>
+        <CursorPos X="44" Y="198"/>
+        <UsageCount Value="20"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="../Src/Lib/Settings/Storage.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="../Src/Cnf/Synedit/CnfSynedit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="../Src/Cnf/Synedit/CnfSyneditFrameColorAttrEditor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CnfSyneditFrameColorAttrEditor"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UsageCount Value="20"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="../Src/Cnf/Synedit/CnfSyneditFrameColours.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CnfSyneditFrameColours"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UsageCount Value="20"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="../Src/Cnf/Synedit/CnfSyneditFrameDisplay.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CnfSyneditFrameDisplay"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UsageCount Value="20"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="../Src/Cnf/Synedit/CnfSyneditFrameGeneral.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CnfSyneditFrameGeneral"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UsageCount Value="20"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="../Src/Cnf/Synedit/CnfSyneditHighlighterDef.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="../Src/Cnf/Synedit/CnfSyneditOptions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="../Src/Cnf/Synedit/CnfSyneditPreview.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="../Src/Cnf/Synedit/CnfSyneditFrameThemes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CnfSyneditFrameThemes"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UsageCount Value="20"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="../Src/Cnf/Dialog/CnfDialogComboBoxItems.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="../Src/Cnf/Export/CnfExportFrameStyleHtml.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameStyleExportHtml"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UsageCount Value="20"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="../Src/Cnf/Export/CnfExportFrameStylePdf.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameStyleExportPdf"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UsageCount Value="20"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="../Src/Cnf/Export/CnfExportFrameStylePdfHF.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameStyleExportPdfHF"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UsageCount Value="20"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="../Src/Cnf/Settings/FrameSettingsInterface.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="../Src/Lib/Localize/LangParse.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="../Src/Lib/Localize/Language.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="../Src/Cnf/Localize/CnfLocalizeFrameLng.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameCnfLocalizeLng"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UsageCount Value="20"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="../Src/Cnf/Print/CnfViewerFrameStylePrint.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="../Src/Cnf/Print/CnfViewerFrameStylePrintHF.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="../Src/Cnf/Viewer/CnfViewerFrameStylePrint.pas"/>
+        <ComponentName Value="FrameStylePrint"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UsageCount Value="20"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="../Src/Cnf/Viewer/CnfViewerFrameStylePrintHF.pas"/>
+        <ComponentName Value="FrameStylePrintHF"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UsageCount Value="20"/>
+      </Unit46>
+    </Units>
+    <JumpHistory Count="1">
+      <Position1>
+        <Filename Value="../Src/Dlg/FormMain.pas"/>
+        <Caret Line="35" Column="59"/>
+      </Position1>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

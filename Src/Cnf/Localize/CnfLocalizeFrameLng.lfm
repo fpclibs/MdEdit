@@ -1,0 +1,189 @@
+inherited FrameCnfLocalizeLng: TFrameCnfLocalizeLng
+  Height = 480
+  Width = 560
+  HorzScrollBar.Page = 1
+  VertScrollBar.Page = 1
+  Anchors = [akTop, akLeft, akRight, akBottom]
+  AutoScroll = True
+  ClientHeight = 480
+  ClientWidth = 560
+  Color = clForm
+  ParentColor = False
+  DesignLeft = 606
+  DesignTop = 201
+  object LabelSelectLng: TLabel[0]
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Side = asrBottom
+    Left = 4
+    Height = 15
+    Top = 8
+    Width = 104
+    BorderSpacing.Left = 4
+    BorderSpacing.Top = 10
+    Caption = 'Sprache auswählen:'
+    ParentColor = False
+  end
+  object ComboBoxLng: TComboBox[1]
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = LabelSelectLng
+    AnchorSideTop.Side = asrBottom
+    Left = 4
+    Height = 23
+    Top = 26
+    Width = 261
+    BorderSpacing.Left = 4
+    BorderSpacing.Top = 3
+    BorderSpacing.Right = 5
+    ItemHeight = 15
+    OnChange = ComboBoxLngChange
+    ParentShowHint = False
+    Style = csDropDownList
+    TabOrder = 0
+  end
+  object Panel2: TPanel[2]
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = ComboBoxLng
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 4
+    Height = 144
+    Top = 64
+    Width = 554
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 4
+    BorderSpacing.Top = 15
+    BorderSpacing.Right = 2
+    BevelColor = clForm
+    BevelOuter = bvLowered
+    BorderStyle = bsSingle
+    ClientHeight = 140
+    ClientWidth = 550
+    Color = clForm
+    ParentColor = False
+    TabOrder = 1
+    object LabelSelectExternLngFiles: TLabel
+      AnchorSideLeft.Control = Panel2
+      AnchorSideTop.Control = CheckBoxUseExternLng
+      AnchorSideTop.Side = asrBottom
+      Left = 5
+      Height = 15
+      Top = 45
+      Width = 122
+      BorderSpacing.Left = 4
+      BorderSpacing.Top = 10
+      Caption = 'Externe Sprach-Dateien'
+      ParentColor = False
+    end
+    object ComboBoxSelectExternLngFiles: TComboBox
+      AnchorSideLeft.Control = Panel2
+      AnchorSideTop.Control = LabelSelectExternLngFiles
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = Panel2
+      AnchorSideRight.Side = asrBottom
+      Left = 5
+      Height = 23
+      Top = 63
+      Width = 542
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 4
+      BorderSpacing.Top = 3
+      BorderSpacing.Right = 2
+      Constraints.MinWidth = 400
+      ItemHeight = 15
+      OnChange = ComboBoxSelectExternLngFilesChange
+      ParentShowHint = False
+      Style = csDropDownList
+      TabOrder = 0
+    end
+    object ButtonLoad: TButton
+      AnchorSideRight.Control = ButtonExport
+      AnchorSideBottom.Control = Panel2
+      AnchorSideBottom.Side = asrBottom
+      Left = 382
+      Height = 25
+      Top = 110
+      Width = 75
+      Anchors = [akRight, akBottom]
+      BorderSpacing.Right = 15
+      BorderSpacing.Bottom = 4
+      Caption = 'Laden'
+      OnClick = ButtonLoadClick
+      TabOrder = 1
+    end
+    object ButtonExport: TButton
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideRight.Control = Panel2
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Control = Panel2
+      AnchorSideBottom.Side = asrBottom
+      Left = 472
+      Height = 25
+      Top = 110
+      Width = 75
+      Anchors = [akRight, akBottom]
+      BorderSpacing.Left = 15
+      BorderSpacing.Right = 2
+      BorderSpacing.Bottom = 4
+      Caption = 'Exportieren'
+      OnClick = ButtonExportClick
+      TabOrder = 2
+    end
+    object CheckBoxUseExternLng: TCheckBox
+      AnchorSideLeft.Control = Panel2
+      AnchorSideTop.Control = Panel2
+      Left = 5
+      Height = 19
+      Top = 16
+      Width = 174
+      BorderSpacing.Left = 4
+      BorderSpacing.Top = 15
+      Caption = 'Benutze externe Sprach-Datei'
+      Color = clDefault
+      OnChange = CheckBoxUseExternLngChange
+      ParentColor = False
+      TabOrder = 3
+    end
+  end
+  object MemoInfoText: TMemo[3]
+    AnchorSideLeft.Control = Panel2
+    AnchorSideTop.Control = Panel2
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Panel2
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 4
+    Height = 175
+    Top = 223
+    Width = 554
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Top = 15
+    BorderSpacing.Bottom = 2
+    Constraints.MinWidth = 200
+    Lines.Strings = (
+      ''
+      'Translate the application'
+      ''
+      'Please helt to translate this application.'
+      ''
+      'Export the Language-File and translate it.'
+    )
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 2
+  end
+  object SaveDialog: TSaveDialog[4]
+    Title = 'Scheme expotrieren ...'
+    Filter = 'XML-Vorlage|*.xml|Config-Vorlage|*.cnf|All Files|*.*'
+    left = 464
+    top = 408
+  end
+  object OpenDialog: TOpenDialog[5]
+    Title = 'Scheme öffnen ...'
+    Filter = 'XML-Vorlage|*.xml|Config-Vorlage|*.cnf|All Files|*.*'
+    Options = [ofFileMustExist, ofEnableSizing, ofViewDetail]
+    left = 360
+    top = 408
+  end
+end

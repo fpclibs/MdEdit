@@ -1,0 +1,62 @@
+inherited FrameSpellCheck: TFrameSpellCheck
+  AnchorSideRight.Side = asrBottom
+  AnchorSideBottom.Side = asrBottom
+  Height = 412
+  Width = 434
+  HorzScrollBar.Page = 1
+  HorzScrollBar.Tracking = True
+  VertScrollBar.Page = 1
+  VertScrollBar.Tracking = True
+  Anchors = [akTop, akLeft, akRight, akBottom]
+  AutoScroll = True
+  ChildSizing.ShrinkHorizontal = crsHomogenousSpaceResize
+  ChildSizing.ShrinkVertical = crsHomogenousSpaceResize
+  ClientHeight = 412
+  ClientWidth = 434
+  DesignLeft = 936
+  DesignTop = 367
+  object Button1: TButton[0]
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Side = asrBottom
+    Left = 352
+    Height = 29
+    Top = 9
+    Width = 76
+    Caption = 'Button1'
+    TabOrder = 0
+  end
+  object Button2: TButton[1]
+    Left = 5
+    Height = 29
+    Top = 9
+    Width = 74
+    Caption = 'Button2'
+    TabOrder = 1
+  end
+  object Edit1: TEdit[2]
+    Left = 5
+    Height = 23
+    Top = 62
+    Width = 423
+    TabOrder = 2
+    Text = 'Edit1'
+  end
+  object Label1: TLabel[3]
+    Left = 5
+    Height = 15
+    Top = 44
+    Width = 73
+    Caption = 'LabelEdit Feld'
+    ParentColor = False
+  end
+  object Memo1: TMemo[4]
+    Left = 5
+    Height = 252
+    Top = 114
+    Width = 423
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 3
+  end
+end

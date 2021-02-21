@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Release"/>
+    <Units Count="57">
+      <Unit0>
+        <Filename Value="MdEdit.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="32"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="..\Src\Dlg\FormMain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="300"/>
+        <CursorPos X="24" Y="320"/>
+        <UsageCount Value="32"/>
+        <Bookmarks Count="1">
+          <Item0 X="2" Y="3263" ID="1"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\Src\Dlg\FormAbout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormAbout"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UsageCount Value="32"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\Src\Dlg\FormBase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormBase"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UsageCount Value="32"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\Doc\ToDo.txt"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="32"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\Src\Dlg\FormPrintStatus.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormPrnStatus"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UsageCount Value="32"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\Src\Dlg\FormPreview.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormPreview"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UsageCount Value="32"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\Src\Lib\Highlighter\SynHighlighterMd.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="32"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\Src\Dlg\FormDebug.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormDebug"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UsageCount Value="32"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\Src\Lib\Highlighter\SynTokenizerMd.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="32"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\Src\Lib\Spell\SynSpellMarkup.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="32"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\Src\Lib\Spell\Hunspell.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="32"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\Src\Lib\Spell\SynSpellToken.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="286"/>
+        <CursorPos Y="307"/>
+        <UsageCount Value="32"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\Src\Lib\Highlighter\SynHighlighterTxt.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="32"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\Src\Lib\Settings\SettingsBase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="32"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\Src\Lib\Global\AppSettings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="32"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\Src\Cnf\Settings\FormSettings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormSettings"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UsageCount Value="32"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\Src\Cnf\Settings\FrameSettingsBase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameSettingsBase"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="163"/>
+        <CursorPos Y="184"/>
+        <UsageCount Value="32"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\Src\Cnf\Spell\CnfSpellFrameDictionarys.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameDictionarys"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UsageCount Value="32"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="..\Src\Dlg\FrameSpellCheck.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameSpellCheck"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UsageCount Value="32"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="..\Src\Lib\Highlighter\SynSpellcheckHighlighter.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="32"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="..\Src\Dlg\FormSpellCheckDlg.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormSpellCheckDlg"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UsageCount Value="32"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="..\Src\Dlg\FormSettingsDlgBase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormSettingsDlgBase"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UsageCount Value="32"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="..\Src\Lib\Versioning\AppVersion.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="32"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="..\Src\Cnf\Viewer\CnfViewerFrameStyleViewer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameStyleViewer"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="285"/>
+        <CursorPos X="32" Y="220"/>
+        <UsageCount Value="32"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="..\Src\Lib\Settings\Storage.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="32"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="..\Src\Cnf\Synedit\CnfSynedit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="32"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="..\Src\Cnf\Synedit\CnfSyneditFrameColorAttrEditor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CnfSyneditFrameColorAttrEditor"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UsageCount Value="32"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="..\Src\Cnf\Synedit\CnfSyneditFrameColours.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CnfSyneditFrameColours"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UsageCount Value="32"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="..\Src\Cnf\Synedit\CnfSyneditFrameDisplay.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CnfSyneditFrameDisplay"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UsageCount Value="32"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="..\Src\Cnf\Synedit\CnfSyneditFrameGeneral.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CnfSyneditFrameGeneral"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="129"/>
+        <CursorPos X="47" Y="154"/>
+        <UsageCount Value="32"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="..\Src\Cnf\Synedit\CnfSyneditHighlighterDef.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="32"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="..\Src\Cnf\Synedit\CnfSyneditOptions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="32"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="..\Src\Cnf\Synedit\CnfSyneditPreview.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="32"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="..\Src\Cnf\Synedit\CnfSyneditFrameThemes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CnfSyneditFrameThemes"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="228"/>
+        <CursorPos X="78" Y="219"/>
+        <UsageCount Value="32"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="..\Src\Cnf\Dialog\CnfDialogComboBoxItems.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="32"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="..\Src\Cnf\Export\CnfExportFrameStyleHtml.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameStyleExportHtml"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="190"/>
+        <CursorPos Y="230"/>
+        <UsageCount Value="32"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="..\Src\Cnf\Export\CnfExportFrameStylePdf.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameStyleExportPdf"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="35"/>
+        <CursorPos Y="60"/>
+        <UsageCount Value="32"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="..\Src\Cnf\Export\CnfExportFrameStylePdfHF.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameStyleExportPdfHF"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="420"/>
+        <CursorPos Y="461"/>
+        <UsageCount Value="32"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="..\Src\Cnf\Settings\FrameSettingsInterface.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="32"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="..\Src\Lib\Localize\LangParse.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="32"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="..\Src\Lib\Localize\Language.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="688"/>
+        <CursorPos X="7" Y="709"/>
+        <UsageCount Value="32"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="..\Src\Cnf\Localize\CnfLocalizeFrameLng.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameCnfLocalizeLng"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="58"/>
+        <CursorPos X="67" Y="90"/>
+        <UsageCount Value="32"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="..\Src\Cnf\Print\CnfViewerFrameStylePrint.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameStylePrint"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="181"/>
+        <CursorPos X="42" Y="187"/>
+        <UsageCount Value="24"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="..\Src\Cnf\Print\CnfViewerFrameStylePrintHF.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameStylePrintHF"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="421"/>
+        <CursorPos X="70" Y="444"/>
+        <UsageCount Value="24"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="..\Src\Cnf\Viewer\CnfViewerFrameStylePrint.pas"/>
+        <ComponentName Value="FrameStylePrint"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UsageCount Value="28"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="..\Src\Cnf\Viewer\CnfViewerFrameStylePrintHF.pas"/>
+        <ComponentName Value="FrameStylePrintHF"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UsageCount Value="28"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="C:\Local\Programs\lazarus\fpc\3.0.4\source\rtl\win64\system.pp"/>
+        <UnitName Value="System"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <CursorPos X="2" Y="39"/>
+        <UsageCount Value="10"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="..\Src\Cnf\Synedit\CnfSyneditFrameThemes.lfm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="683"/>
+        <CursorPos X="4" Y="725"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="..\Src\Cnf\Viewer\Resources\CnfViewerFrameStyleViewer.lrs"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="..\Src\Cnf\Export\Resources\CnfExportFrameStyleHtml.lrs"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="C:\Local\Programs\lazarus\lcl\lresources.pp"/>
+        <UnitName Value="LResources"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="5337"/>
+        <CursorPos Y="5367"/>
+        <UsageCount Value="10"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="..\Src\Cnf\Print\Resources\CnfViewerFrameStylePrintHF.lrs"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="32"/>
+        <UsageCount Value="10"/>
+      </Unit52>
+      <Unit53>
+        <Filename Value="C:\Local\Programs\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="922"/>
+        <CursorPos Y="943"/>
+        <UsageCount Value="10"/>
+      </Unit53>
+      <Unit54>
+        <Filename Value="..\..\..\FpcComponents\components\htmlViewer\source\framview.pas"/>
+        <UnitName Value="FramView"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit54>
+      <Unit55>
+        <Filename Value="..\..\..\FpcComponents\components\htmlViewer\source\htmlview.pas"/>
+        <UnitName Value="HtmlView"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="727"/>
+        <CursorPos X="36" Y="738"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit55>
+      <Unit56>
+        <Filename Value="..\..\..\FpcComponents\components\htmlViewer\source\URLSubs.pas"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="10"/>
+        <CursorPos X="8" Y="30"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit56>
+    </Units>
+    <JumpHistory Count="15" HistoryIndex="14">
+      <Position1>
+        <Filename Value="..\..\..\FpcComponents\components\htmlViewer\source\framview.pas"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\Src\Dlg\FormMain.pas"/>
+        <Caret Line="630" Column="8" TopLine="610"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\Src\Dlg\FormMain.pas"/>
+        <Caret Line="320" Column="24" TopLine="300"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\..\..\FpcComponents\components\htmlViewer\source\htmlview.pas"/>
+        <Caret Line="657" Column="63" TopLine="630"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\..\..\FpcComponents\components\htmlViewer\source\htmlview.pas"/>
+        <Caret Line="873" Column="24" TopLine="840"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\..\..\FpcComponents\components\htmlViewer\source\htmlview.pas"/>
+        <Caret Line="253" Column="13" TopLine="235"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\..\..\FpcComponents\components\htmlViewer\source\htmlview.pas"/>
+        <Caret Line="657" Column="63" TopLine="625"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\..\..\FpcComponents\components\htmlViewer\source\htmlview.pas"/>
+        <Caret Line="873" Column="24" TopLine="840"/>
+      </Position8>
+      <Position9>
+        <Filename Value="..\..\..\FpcComponents\components\htmlViewer\source\htmlview.pas"/>
+        <Caret Line="3582" Column="3" TopLine="3551"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\..\..\FpcComponents\components\htmlViewer\source\htmlview.pas"/>
+        <Caret Line="181" Column="58" TopLine="175"/>
+      </Position10>
+      <Position11>
+        <Filename Value="..\..\..\FpcComponents\components\htmlViewer\source\htmlview.pas"/>
+        <Caret Line="418" Column="26" TopLine="386"/>
+      </Position11>
+      <Position12>
+        <Filename Value="..\..\..\FpcComponents\components\htmlViewer\source\htmlview.pas"/>
+        <Caret Line="4784" Column="3" TopLine="4601"/>
+      </Position12>
+      <Position13>
+        <Filename Value="..\..\..\FpcComponents\components\htmlViewer\source\htmlview.pas"/>
+        <Caret Line="261" TopLine="221"/>
+      </Position13>
+      <Position14>
+        <Filename Value="..\..\..\FpcComponents\components\htmlViewer\source\htmlview.pas"/>
+        <Caret Line="781" Column="58" TopLine="750"/>
+      </Position14>
+      <Position15>
+        <Filename Value="..\..\..\FpcComponents\components\htmlViewer\source\htmlview.pas"/>
+        <Caret Line="769" Column="20" TopLine="749"/>
+      </Position15>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,67 @@
+# MdEdit
+
+MdEdit is a markdown editor with an integrated
+Markdown viewer.
+
+# Lizenz
+ 
+Lazarus modified Library GNU General Public License und 
+entsprechende Lizenzen der verwendeten Pakete.
+
+https://wiki.lazarus.freepascal.org/FPC_modified_LGPL
+
+# Intention
+
+The Markdown syntax is ideal for versioning text documents, for 
+example with GIT or SVN. The syntax for the formatting is 
+well designed so that the plane text is always easy to read.
+
+MdEdit is based on the FPC Markdown, the SysEdit and the 
+HtmlViewer package. In addition, Markdown syntex highlighting 
+and a spell checker based on Hunspell are implemented.
+
+The project was started by Andreas Peter Luft as a private 
+development project to get to know SynEdit better. Above all 
+to research how to develop your own syntax higliegter or 
+implement a spell check in SynEdit.
+
+Additional support is required for the further development of 
+MdEdit.
+
+-  Andreas Peter Luft -
+
+
+# MdEdit
+
+MdEdit ist ein Markdown Editor mit einem integrierten
+Markdown-Viewer.
+
+# Lizenz 
+
+Lazarus modified Library GNU General Public License und 
+entsprechende Lizenzen der verwendeten Pakete.
+
+https://wiki.lazarus.freepascal.org/FPC_modified_LGPL
+
+# Intention
+
+Die Syntax von Markdown eignet sich prima, um Text-Dokumente 
+zu versionieren, zum Beispiel mit GIT oder SVN. Die Syntax für 
+die Formatierung ist dabei so gestaltet, dass der Plane Text immer 
+gut lesbar bleibt.
+
+MdEdit beruht auf dem FPC-Markdown, dem SysEdit und dem 
+HtmlViewer Paket. Außerdem ist ein Markdown-Syntexhighighting 
+und eine Rechtschreibprüfung auf Basis von Hunspell 
+implementiert. 
+
+Das Projekt wurde von Andreas Peter Luft als privates 
+Entwicklungsprojekt gestartet, um SynEdit besser kennenzulernen. 
+Vor allem, um zu erforschen, wie man einen eigenen Syntaxhigliegter 
+entwickelt oder eine Rechtschreibprüfung in SynEdit 
+implementieren kann.
+
+Für die Weiterentwicklung von MdEdit wird zusätzliche Unterstützung 
+benötigt.
+
+-  Andreas Peter Luft -

@@ -1,0 +1,44 @@
+object FormDebug: TFormDebug
+  Left = 455
+  Height = 443
+  Top = 414
+  Width = 569
+  Caption = 'Debug Console'
+  ClientHeight = 443
+  ClientWidth = 569
+  OnCreate = FormCreate
+  LCLVersion = '2.0.4.0'
+  object MemoDebug: TMemo
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Side = asrBottom
+    Left = 0
+    Height = 386
+    Top = 57
+    Width = 569
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    ScrollBars = ssVertical
+    TabOrder = 0
+  end
+  object ButtonSend: TButton
+    AnchorSideRight.Side = asrBottom
+    Left = 480
+    Height = 25
+    Top = 11
+    Width = 75
+    Anchors = [akTop, akRight]
+    Caption = 'Send >'
+    OnClick = ButtonSendClick
+    TabOrder = 1
+  end
+  object ComboBoxDebug: TComboBox
+    AnchorSideRight.Side = asrBottom
+    Left = 10
+    Height = 23
+    Top = 13
+    Width = 457
+    Anchors = [akTop, akLeft, akRight]
+    ItemHeight = 15
+    OnKeyPress = ComboBoxDebugKeyPress
+    TabOrder = 2
+  end
+end
